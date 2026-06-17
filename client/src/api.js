@@ -138,5 +138,12 @@ export const api = {
   queryProviderDraftModels: (payload) => request("/api/providers/models/query", { method: "POST", body: body(payload) }),
   queryModels: (id) => request(`/api/providers/${id}/models/query`, { method: "POST" }),
   addProviderModel: (id, model) => request(`/api/providers/${id}/models`, { method: "POST", body: body({ model }) }),
-  removeProviderModel: (id, model) => request(`/api/providers/${id}/models/remove`, { method: "POST", body: body({ model }) })
+  removeProviderModel: (id, model) => request(`/api/providers/${id}/models/remove`, { method: "POST", body: body({ model }) }),
+
+  // MCP 调用：供 Codex/ZCode 等外部 Agent 通过本服务调用核心扮演引擎
+  mcpCall: (tool, args) => request("/api/mcp", { method: "POST", body: body({ tool, args }) }),
+  mcpTools: () => request("/api/mcp"),
+
+  // 获取运行模式
+  getMode: () => request("/api/mode")
 };

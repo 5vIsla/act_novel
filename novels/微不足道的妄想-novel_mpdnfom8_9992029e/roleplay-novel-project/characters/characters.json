@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "id": "char_mqhp5j6s_22356aea",
+    "roleType": "major",
+    "name": "测试角色-MCP",
+    "description": "通过MCP创建的角色",
+    "personality": "",
+    "scenario": "",
+    "firstMessage": "",
+    "exampleDialog": "",
+    "systemPrompt": "",
+    "postHistoryInstructions": "",
+    "tags": [],
+    "lorebook": "",
+    "providerId": "provider_mpdpwv1r_b382fb80",
+    "model": "auto",
+    "temperature": 0.8,
+    "createdAt": "2026-06-17T06:35:24.388Z",
+    "updatedAt": "2026-06-17T06:35:24.388Z"
+  },
+  {
+    "id": "char_mqhq1cvz_5bfc43b7",
+    "roleType": "major",
+    "name": "测试角色",
+    "description": "通过 ZCode MCP 创建的角色",
+    "personality": "勇敢、正直、有点固执",
+    "scenario": "",
+    "firstMessage": "",
+    "exampleDialog": "",
+    "systemPrompt": "",
+    "postHistoryInstructions": "",
+    "tags": [],
+    "lorebook": "",
+    "providerId": "provider_mpdpwv1r_b382fb80",
+    "model": "auto",
+    "temperature": 0.8,
+    "createdAt": "2026-06-17T07:00:09.215Z",
+    "updatedAt": "2026-06-17T07:00:09.215Z"
+  }
+]

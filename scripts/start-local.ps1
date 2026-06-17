@@ -3,7 +3,8 @@
   [switch]$AutoShutdown,
   [switch]$ProbeOnly,
   [switch]$ReuseExisting,
-  [switch]$StopExistingOnly
+  [switch]$StopExistingOnly,
+  [string]$Mode = ""
 )
 
 # 这个脚本负责一键启动本地工作台：
@@ -507,11 +508,12 @@ if ($AutoShutdown) {
   Write-Info "后端会保持运行；关闭此窗口或按 Ctrl+C 才会停止服务。"
 }
 
-# 前台运行 Node 服务，方便用户看到日志，也方便用 Ctrl+C 结束。
-# 使用绝对入口路径启动，后续启动器才能准确识别“这就是当前项目的旧实例”。
+	# 前台运行 Node 服务，方便用户看到日志，也方便用 Ctrl+C 结束。
+# 使用绝对入口路径启动，后续启动器才能准确识别”这就是当前项目的旧实例”。
 # 加上 --expose-gc 是为了本地长时间使用时能在清理大缓存后主动回收 V8 堆，避免误以为会话对象一直叠加。
 Push-Location $Root
 try {
+  $env:MODE = $Mode
   & node --expose-gc $ServerEntry
 } finally {
   Pop-Location

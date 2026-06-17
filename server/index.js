@@ -15,6 +15,9 @@ const {
   normalizeCardLikeInput,
   toTavernCardV2
 } = require("./skillpacks/novel-planning");
+const { createMcpHandler } = require("./mcp-server");
+// MCP handler 实例，延迟初始化（在所有核心函数定义完毕后）
+let mcpHandler = null;
 
 // 统一使用仓库内路径，保证数据、前端静态文件和后端入口的相对关系稳定。
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -71,6 +74,8 @@ const AUTO_SHUTDOWN_CHECK_MS = Number(process.env.AUTO_SHUTDOWN_CHECK_MS || 5000
 const OPEN_BROWSER_ON_READY = process.env.OPEN_BROWSER === "1";
 const LAUNCHER_SHUTDOWN_TOKEN = process.env.ROLEPLAY_LAUNCHER_TOKEN || "";
 const LAUNCHER_INSTANCE_ID = process.env.ROLEPLAY_LAUNCHER_INSTANCE_ID || crypto.randomBytes(8).toString("hex");
+// 核心模式开关：设为 "core-only" 时禁用所有策划 Agent 功能，只暴露扮演引擎。
+const IS_CORE_ONLY = process.env.MODE === "core-only";
 // 给 Windows 任务管理器和启动器进程扫描一个更明确的名字，但不依赖它做安全判断。
 process.title = "roleplay-novel-studio-server";
 // 这是服务端内部运行保护预算，不是产品层面的固定流程。
@@ -12614,6 +12619,30 @@ async function handleApi(req, res, pathname) {
     });
   }
 
+  // 模式信息：告诉前端当前是否运行在 core-only 模式
+  if (method === "GET" && pathname === "/api/mode") {
+    return sendJson(res, 200, { ok: true, mode: IS_CORE_ONLY ? "core-only" : "full" });
+  }
+
+  // MCP 端点：供 Codex/ZCode 等外部 Agent 工具调用
+  if (method === "POST" && pathname === "/api/mcp") {
+    const body = await parseJsonBody(req);
+    const store = await readStore();
+    if (!mcpHandler) {
+      return sendJson(res, 503, { ok: false, message: "MCP 处理器尚未就绪" });
+    }
+    const result = await mcpHandler.handleMcpRequest(store, body);
+    return sendJson(res, 200, { ok: true, ...result });
+  }
+
+  // MCP 目录：列出所有可用工具
+  if (method === "GET" && pathname === "/api/mcp") {
+    if (!mcpHandler) {
+      return sendJson(res, 503, { ok: false, message: "MCP 处理器尚未就绪" });
+    }
+    return sendJson(res, 200, { ok: true, tools: mcpHandler.getToolCatalog() });
+  }
+
   if (method === "POST" && pathname === "/api/runtime/clear-memory-caches") {
     return sendJson(res, 200, {
       ok: true,
@@ -12921,6 +12950,29 @@ async function handleApi(req, res, pathname) {
 async function handleNovelApi(req, res, parts) {
   const method = req.method || "GET";
   const novelId = parts[2];
+
+  // 核心模式：禁用所有策划 Agent 相关路由
+  if (IS_CORE_ONLY && parts[3] && (
+    parts[3] === "planning-chat" ||
+    parts[3] === "planning-chat-cancel" ||
+    parts[3] === "planning-chat-revert-last" ||
+    parts[3] === "planning-runs" ||
+    parts[3] === "planning-messages" ||
+    parts[3] === "planning-branches" ||
+    parts[3] === "planning-version-graph" ||
+    parts[3] === "planning-response-tree" ||
+    parts[3] === "planning-response-tree-diff" ||
+    parts[3] === "planning-response-tree-revert-node" ||
+    parts[3] === "planning-branch-merge-preview" ||
+    parts[3] === "planning-tools" ||
+    parts[3] === "planning-doctor" ||
+    parts[3] === "planning-shell-jobs" ||
+    parts[3] === "planning-context-assets" ||
+    parts[3] === "planning-context-compaction-revert"
+  )) {
+    throw new HttpError(404, "此模式下策划 Agent 功能不可用");
+  }
+
   if (method === "POST" && parts[3] === "planning-chat" && parts[4] === "start") {
     const body = await parseJsonBody(req);
     const result = await startPlanningChatRun(novelId, body);
@@ -39935,6 +39987,14 @@ async function serveStatic(req, res, pathname) {
   if (!stat || !stat.isFile()) {
     throw new HttpError(404, "没有找到页面文件");
   }
+  // 对 index.html 注入 core-only 模式标志，让前端隐藏策划 Agent 相关 UI
+  if (pathname === "/" || pathname === "/index.html") {
+    const html = await fs.readFile(filePath, "utf8");
+    const modeScript = `<script>fetch('/api/mode').then(function(r){return r.json()}).then(function(d){window.__CORE_MODE__=d.mode==='core-only'}).catch(function(){})</script>`;
+    const injected = html.replace("</head>", modeScript + "</head>");
+    res.writeHead(200, { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" });
+    return res.end(injected);
+  }
   const extension = path.extname(filePath).toLowerCase();
   res.writeHead(200, {
     "content-type": MIME_TYPES[extension] || "application/octet-stream",
@@ -40017,6 +40077,34 @@ function removeServerRuntimeManifestSync(options = {}) {
     return false;
   }
 }
+
+// 初始化 MCP 处理器，注入核心函数引用
+mcpHandler = createMcpHandler({
+  findNovel,
+  writeStore,
+  nowIso,
+  createId,
+  createDefaultNovel,
+  createDefaultCharacter,
+  createDefaultLorebook,
+  createDefaultMemory,
+  normalizeCharacter,
+  sanitizeStoreForClient,
+  applyDefaultCharacterAiSetting,
+  projectCharacterToMemory,
+  generateRoleplayConfigDraft,
+  applyRoleplayConfig,
+  runRoleplayTurn,
+  rerunTurnCharacter,
+  runReviewChain,
+  adaptLatestRoleplay,
+  generatePrewritePlan,
+  runChapterWorkflow,
+  acceptProsePart,
+  discardProsePart,
+  buildPlanningDoctorReport,
+  runNovelQualityGate
+});
 
 server.listen(PORT, HOST, () => {
   const url = `http://${HOST}:${PORT}`;

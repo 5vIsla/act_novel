@@ -6194,10 +6194,15 @@ function useHashPage() {
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
   const navigate = (key) => {
+    // core-only 模式下禁止导航到策划 Agent 相关页面
+    if (window.__CORE_MODE__ && (key === "planning" || key === "agentSettings")) {
+      key = "library";
+    }
     window.location.hash = key;
     setPage(key);
   };
-  return [pageItems.some((item) => item.key === page) ? page : "planning", navigate];
+  const fallbackPage = window.__CORE_MODE__ ? "library" : "planning";
+  return [pageItems.some((item) => item.key === page) ? page : fallbackPage, navigate];
 }
 
 function MetricCard({ title, value, suffix, icon, tone = "ink" }) {
