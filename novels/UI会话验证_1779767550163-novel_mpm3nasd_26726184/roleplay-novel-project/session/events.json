@@ -1,0 +1,103 @@
+[
+  {
+    "id": "event_mpm3nbas_ffc3f3a8",
+    "type": "novel_updated",
+    "createdAt": "2026-05-26T03:52:30.964Z",
+    "payload": {
+      "title": "UI会话验证_1779767550163"
+    }
+  },
+  {
+    "id": "event_mpm3nccx_52d576c7",
+    "type": "planning_session_created",
+    "createdAt": "2026-05-26T03:52:32.337Z",
+    "payload": {
+      "branchId": "session_mpm3nccx_7nqlw",
+      "parentBranchId": "",
+      "forkFromMessageId": ""
+    }
+  },
+  {
+    "id": "event_mpm3nd8p_9cc90f83",
+    "type": "planning_session_updated",
+    "createdAt": "2026-05-26T03:52:33.481Z",
+    "payload": {
+      "branchId": "session_mpm3nccx_7nqlw",
+      "archived": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "event_mpm3ne4h_518f0761",
+    "type": "planning_branch_switched",
+    "createdAt": "2026-05-26T03:52:34.625Z",
+    "payload": {
+      "branchId": "main"
+    }
+  },
+  {
+    "id": "event_mpm3niu4_de93b76c",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-26T03:52:40.732Z",
+    "payload": {
+      "runId": "run_mpm3nf5m_b35beb",
+      "messageId": "msg_mpm3ng51_3fd510d6",
+      "branchId": "main",
+      "forkFromMessageId": "",
+      "hasArchivePatch": false,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpm3nkuz_8a734d95",
+    "type": "planning_session_forked",
+    "createdAt": "2026-05-26T03:52:43.355Z",
+    "payload": {
+      "branchId": "session_mpm3nkuz_0s3zg",
+      "parentBranchId": "main",
+      "forkFromMessageId": "msg_mpm3ng51_3fd510d6"
+    }
+  },
+  {
+    "id": "event_mpm3nmb8_b7949365",
+    "type": "planning_session_updated",
+    "createdAt": "2026-05-26T03:52:45.236Z",
+    "payload": {
+      "branchId": "session_mpm3nkuz_0s3zg",
+      "archived": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "event_mpm3nobx_dbc2965d",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T03:52:47.853Z",
+    "payload": {
+      "branchId": "session_mpm3nkuz_0s3zg",
+      "parentBranchId": "main",
+      "forkFromMessageId": "msg_mpm3ng51_3fd510d6",
+      "forkFromRunId": "run_mpm3nf5m_b35beb"
+    }
+  },
+  {
+    "id": "event_mpm3nqw6_101b4d85",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-26T03:52:51.174Z",
+    "payload": {
+      "runId": "run_mpm3nnd4_3cbddd",
+      "messageId": "msg_mpm3noby_6a4fd6db",
+      "branchId": "session_mpm3nkuz_0s3zg",
+      "forkFromMessageId": "msg_mpm3ng51_3fd510d6",
+      "hasArchivePatch": false,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  }
+]

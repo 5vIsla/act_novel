@@ -1,0 +1,9 @@
+{
+  "id": "novel_mq5zl02s_42afe901",
+  "title": "UI 过程流验证",
+  "exportedAt": "2026-06-09T01:54:28.274Z",
+  "updatedAt": "2026-06-09T01:54:11.341Z",
+  "format": "roleplay-novel-project.v1",
+  "authority": "server-store",
+  "note": "这些文件是后端从项目数据投影出来的工作区资料，用于 Agent 检索和人工查看；直接修改文件暂不会自动写回应用。"
+}

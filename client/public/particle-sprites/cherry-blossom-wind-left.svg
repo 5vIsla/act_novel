@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 72">
+  <desc>单片樱花花瓣左向受风姿态，轻微压弯但保持浅粉花瓣形。</desc>
+  <defs>
+    <linearGradient id="leftFill" x1="10" y1="9" x2="35" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffafd" stop-opacity=".99"/>
+      <stop offset=".45" stop-color="#fce7ee" stop-opacity=".98"/>
+      <stop offset=".78" stop-color="#f9d8e2" stop-opacity=".93"/>
+      <stop offset="1" stop-color="#f6d1dc" stop-opacity=".86"/>
+    </linearGradient>
+    <radialGradient id="leftGlow" cx="18" cy="23" r="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".82"/>
+      <stop offset=".60" stop-color="#fff2f6" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#f7d3de" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leftEdge" x1="38" y1="14" x2="14" y2="67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7fb" stop-opacity=".36"/>
+      <stop offset=".48" stop-color="#f4b4c8" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#e991af" stop-opacity=".22"/>
+    </linearGradient>
+    <linearGradient id="leftRidge" x1="11" y1="18" x2="28" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".76"/>
+      <stop offset=".52" stop-color="#fff1f7" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#f3b6ca" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path
+    d="M22.4 66.5C13.1 61.5 6.9 48.7 7.9 35.2 8.9 22 16.2 11.5 24.5 11.1c1.5-.1 2.1 2.5 2.5 4.2 1.7-2.1 4.7-4.9 7.4-3.4 7.1 4.3 7.4 18.4 2.6 31.4-4 10.8-9.8 19.3-14.6 23.2z"
+    fill="url(#leftFill)"/>
+  <path
+    d="M22.4 66.5C13.1 61.5 6.9 48.7 7.9 35.2 8.9 22 16.2 11.5 24.5 11.1c1.5-.1 2.1 2.5 2.5 4.2 1.7-2.1 4.7-4.9 7.4-3.4 7.1 4.3 7.4 18.4 2.6 31.4-4 10.8-9.8 19.3-14.6 23.2z"
+    fill="url(#leftGlow)"/>
+  <path
+    d="M35.2 13.4c5.8 6.2 5.5 18.6 1.8 29.9-3.5 10.8-9.1 18.8-14.6 23.2 7-8.4 10.8-18.8 11.9-30 .8-8.1.4-15.8.9-23.1z"
+    fill="url(#leftEdge)"/>
+  <path
+    d="M17.3 16.1c-6 7.4-8.1 19.2-5.4 31.3 1.7 7.8 5.3 14.5 10.5 19.1-3.1-8.5-4.1-18.4-3.4-29.3.4-7.8.1-14.8-1.7-21.1z"
+    fill="url(#leftRidge)"/>
+  <path
+    d="M27 17.2c-1.6 13-3 30.8-4.2 47.6"
+    fill="none"
+    stroke="#f0cbd7"
+    stroke-width=".6"
+    stroke-linecap="round"
+    stroke-opacity=".16"/>
+  <path
+    d="M18.4 26.4c.9 8.4 1.9 16.7 3.7 27.2M33.4 25.3c-2.1 8.4-4.8 17.1-8.3 27"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width=".7"
+    stroke-linecap="round"
+    stroke-opacity=".48"/>
+  <path
+    d="M22.4 66.5C13.1 61.5 6.9 48.7 7.9 35.2 8.9 22 16.2 11.5 24.5 11.1c1.5-.1 2.1 2.5 2.5 4.2 1.7-2.1 4.7-4.9 7.4-3.4 7.1 4.3 7.4 18.4 2.6 31.4-4 10.8-9.8 19.3-14.6 23.2z"
+    fill="none"
+    stroke="#fff6fa"
+    stroke-width=".62"
+    stroke-opacity="0"/>
+</svg>

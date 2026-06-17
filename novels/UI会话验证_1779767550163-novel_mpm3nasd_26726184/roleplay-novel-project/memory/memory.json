@@ -1,0 +1,900 @@
+{
+  "items": [],
+  "lastInjection": {
+    "task": "planner",
+    "strategy": "project_rag",
+    "characterId": "",
+    "query": "UI验证派生会话消息：随后会回退这一轮。",
+    "lorebookScan": {
+      "depth": 4,
+      "sourceCount": 5,
+      "text": "当前查询\nUI验证派生会话消息：随后会回退这一轮。\n\n最近策划对话：user\nUI验证主会话消息：只回复连接正常。\n\n最近策划对话：assistant\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n\n最近策划对话：user\nUI验证主会话消息：只回复连接正常。\n\n最近策划对话：assistant\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。"
+    },
+    "fixedContext": [
+      {
+        "title": "策划项目档案",
+        "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+        "source": {
+          "type": "archive",
+          "id": "planner"
+        }
+      }
+    ],
+    "triggeredLore": [],
+    "structuredMemory": [],
+    "retrievedEvidence": [
+      {
+        "id": "planning_msg_mpm3ng51_3fd510d6_skill_ops",
+        "title": "策划 Skill 执行结果",
+        "source": {
+          "type": "planning_skill_ops",
+          "id": "msg_mpm3ng51_3fd510d6"
+        },
+        "score": 0.765,
+        "bm25Score": 1,
+        "vectorScore": 0,
+        "rerankScore": 1.15,
+        "retrievalMode": "bm25",
+        "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+      },
+      {
+        "id": "planning_msg_mpm3nkuz_edb6d7a3_skill_ops",
+        "title": "策划 Skill 执行结果",
+        "source": {
+          "type": "planning_skill_ops",
+          "id": "msg_mpm3nkuz_edb6d7a3"
+        },
+        "score": 0.765,
+        "bm25Score": 1,
+        "vectorScore": 0,
+        "rerankScore": 1.15,
+        "retrievalMode": "bm25",
+        "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+      },
+      {
+        "id": "planning_msg_mpm3ng51_830772f9",
+        "title": "策划对话：user",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_830772f9"
+        },
+        "score": 0.6596,
+        "bm25Score": 0.8948,
+        "vectorScore": 0,
+        "rerankScore": 0.9737,
+        "retrievalMode": "bm25",
+        "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=main\nUI验证主会话消息：只回复连接正常。"
+      },
+      {
+        "id": "planning_msg_mpm3nkuz_b5711ccc",
+        "title": "策划对话：user",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_b5711ccc"
+        },
+        "score": 0.6596,
+        "bm25Score": 0.8948,
+        "vectorScore": 0,
+        "rerankScore": 0.9737,
+        "retrievalMode": "bm25",
+        "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\nUI验证主会话消息：只回复连接正常。"
+      },
+      {
+        "id": "planning_msg_mpm3ng51_3fd510d6",
+        "title": "策划对话：assistant",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_3fd510d6"
+        },
+        "score": 0.4782,
+        "bm25Score": 0.3908,
+        "vectorScore": 0,
+        "rerankScore": 0.8477,
+        "retrievalMode": "bm25",
+        "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}"
+      },
+      {
+        "id": "planning_msg_mpm3nkuz_edb6d7a3",
+        "title": "策划对话：assistant",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_edb6d7a3"
+        },
+        "score": 0.4782,
+        "bm25Score": 0.3908,
+        "vectorScore": 0,
+        "rerankScore": 0.8477,
+        "retrievalMode": "bm25",
+        "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}"
+      }
+    ],
+    "recentContext": [
+      {
+        "title": "策划对话：user",
+        "text": "UI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_830772f9"
+        }
+      },
+      {
+        "title": "策划对话：assistant",
+        "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_3fd510d6"
+        }
+      },
+      {
+        "title": "策划对话：user",
+        "text": "UI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_b5711ccc"
+        }
+      },
+      {
+        "title": "策划对话：assistant",
+        "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_edb6d7a3"
+        }
+      }
+    ],
+    "runtimeDirective": null,
+    "promptSections": [
+      {
+        "layer": "fixed_context",
+        "title": "策划项目档案",
+        "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+        "source": {
+          "type": "archive",
+          "id": "planner"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划 Skill 执行结果",
+        "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_skill_ops",
+          "id": "msg_mpm3ng51_3fd510d6"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划 Skill 执行结果",
+        "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_skill_ops",
+          "id": "msg_mpm3nkuz_edb6d7a3"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划对话：user",
+        "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=main\nUI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_830772f9"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划对话：user",
+        "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\nUI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_b5711ccc"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划对话：assistant",
+        "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_3fd510d6"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划对话：assistant",
+        "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_edb6d7a3"
+        }
+      },
+      {
+        "layer": "recent_context",
+        "title": "策划对话：user",
+        "text": "UI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_830772f9"
+        }
+      },
+      {
+        "layer": "recent_context",
+        "title": "策划对话：assistant",
+        "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3ng51_3fd510d6"
+        }
+      },
+      {
+        "layer": "recent_context",
+        "title": "策划对话：user",
+        "text": "UI验证主会话消息：只回复连接正常。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_b5711ccc"
+        }
+      },
+      {
+        "layer": "recent_context",
+        "title": "策划对话：assistant",
+        "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mpm3nkuz_edb6d7a3"
+        }
+      }
+    ],
+    "layers": {
+      "fixedContext": [
+        {
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        }
+      ],
+      "triggeredLore": [],
+      "structuredMemory": [],
+      "retrievedEvidence": [
+        {
+          "id": "planning_msg_mpm3ng51_3fd510d6_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3ng51_3fd510d6"
+          },
+          "score": 0.765,
+          "bm25Score": 1,
+          "vectorScore": 0,
+          "rerankScore": 1.15,
+          "retrievalMode": "bm25",
+          "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3nkuz_edb6d7a3_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3nkuz_edb6d7a3"
+          },
+          "score": 0.765,
+          "bm25Score": 1,
+          "vectorScore": 0,
+          "rerankScore": 1.15,
+          "retrievalMode": "bm25",
+          "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3ng51_830772f9",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_830772f9"
+          },
+          "score": 0.6596,
+          "bm25Score": 0.8948,
+          "vectorScore": 0,
+          "rerankScore": 0.9737,
+          "retrievalMode": "bm25",
+          "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=main\nUI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3nkuz_b5711ccc",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_b5711ccc"
+          },
+          "score": 0.6596,
+          "bm25Score": 0.8948,
+          "vectorScore": 0,
+          "rerankScore": 0.9737,
+          "retrievalMode": "bm25",
+          "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\nUI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3ng51_3fd510d6",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_3fd510d6"
+          },
+          "score": 0.4782,
+          "bm25Score": 0.3908,
+          "vectorScore": 0,
+          "rerankScore": 0.8477,
+          "retrievalMode": "bm25",
+          "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}"
+        },
+        {
+          "id": "planning_msg_mpm3nkuz_edb6d7a3",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_edb6d7a3"
+          },
+          "score": 0.4782,
+          "bm25Score": 0.3908,
+          "vectorScore": 0,
+          "rerankScore": 0.8477,
+          "retrievalMode": "bm25",
+          "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}"
+        }
+      ],
+      "recentContext": [
+        {
+          "title": "策划对话：user",
+          "text": "UI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_830772f9"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_3fd510d6"
+          }
+        },
+        {
+          "title": "策划对话：user",
+          "text": "UI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_b5711ccc"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_edb6d7a3"
+          }
+        }
+      ],
+      "runtimeDirective": null
+    },
+    "warnings": [],
+    "budget": {
+      "structuredMemory": 12,
+      "retrievedEvidence": 8,
+      "evidenceChars": 900,
+      "triggeredLore": 8,
+      "loreChars": 900,
+      "recursiveScanning": false,
+      "memoryLayerStats": {},
+      "preferredMemoryLayers": [
+        "stable_fact",
+        "tentative_judgment",
+        "author_memory",
+        "run_audit"
+      ]
+    },
+    "builtAt": "2026-05-26T03:52:47.854Z",
+    "afterWrite": {
+      "task": "planner",
+      "strategy": "project_rag",
+      "characterId": "",
+      "query": "UI验证派生会话消息：随后会回退这一轮。",
+      "lorebookScan": {
+        "depth": 4,
+        "sourceCount": 5,
+        "text": "当前查询\nUI验证派生会话消息：随后会回退这一轮。\n\n最近策划对话：user\nUI验证主会话消息：只回复连接正常。\n\n最近策划对话：assistant\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n\n最近策划对话：user\nUI验证派生会话消息：随后会回退这一轮。\n\n最近策划对话：assistant\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证派生会话消息：随后会回退这一轮。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。"
+      },
+      "fixedContext": [
+        {
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        }
+      ],
+      "triggeredLore": [],
+      "structuredMemory": [],
+      "retrievedEvidence": [
+        {
+          "id": "planning_msg_mpm3noby_6a4fd6db_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3noby_6a4fd6db"
+          },
+          "score": 1.629,
+          "bm25Score": 1,
+          "vectorScore": 0,
+          "rerankScore": 3.07,
+          "retrievalMode": "bm25",
+          "text": "检索工具：search；query=UI验证派生会话消息：随后会回退这一轮。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证派生会话消息：随后会回退这一轮。"
+        },
+        {
+          "id": "planning_msg_mpm3noby_d599c597",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_d599c597"
+          },
+          "score": 1.0921,
+          "bm25Score": 0.896,
+          "vectorScore": 0,
+          "rerankScore": 1.934,
+          "retrievalMode": "bm25",
+          "text": "role=user\nrunId=run_mpm3nnd4_3cbddd\nbranch=session_mpm3nkuz_0s3zg\nUI验证派生会话消息：随后会回退这一轮。"
+        },
+        {
+          "id": "planning_msg_mpm3noby_6a4fd6db",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_6a4fd6db"
+          },
+          "score": 0.912,
+          "bm25Score": 0.396,
+          "vectorScore": 0,
+          "rerankScore": 1.809,
+          "retrievalMode": "bm25",
+          "text": "role=assistant\nrunId=run_mpm3nnd4_3cbddd\nbranch=session_mpm3nkuz_0s3zg\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证派生会话消息：随后会回退这一轮。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:51.172Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:51.173Z\"}"
+        },
+        {
+          "id": "planning_msg_mpm3ng51_3fd510d6_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3ng51_3fd510d6"
+          },
+          "score": 0.4123,
+          "bm25Score": 0.0203,
+          "vectorScore": 0,
+          "rerankScore": 0.9051,
+          "retrievalMode": "bm25",
+          "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3nkuz_edb6d7a3_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3nkuz_edb6d7a3"
+          },
+          "score": 0.4123,
+          "bm25Score": 0.0203,
+          "vectorScore": 0,
+          "rerankScore": 0.9051,
+          "retrievalMode": "bm25",
+          "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3ng51_830772f9",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_830772f9"
+          },
+          "score": 0.344,
+          "bm25Score": 0.0181,
+          "vectorScore": 0,
+          "rerankScore": 0.7545,
+          "retrievalMode": "bm25",
+          "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=main\nUI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3nkuz_b5711ccc",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_b5711ccc"
+          },
+          "score": 0.344,
+          "bm25Score": 0.0181,
+          "vectorScore": 0,
+          "rerankScore": 0.7545,
+          "retrievalMode": "bm25",
+          "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\nUI验证主会话消息：只回复连接正常。"
+        },
+        {
+          "id": "planning_msg_mpm3ng51_3fd510d6",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_3fd510d6"
+          },
+          "score": 0.3404,
+          "bm25Score": 0.0079,
+          "vectorScore": 0,
+          "rerankScore": 0.752,
+          "retrievalMode": "bm25",
+          "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}"
+        }
+      ],
+      "recentContext": [
+        {
+          "title": "策划对话：user",
+          "text": "UI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_b5711ccc"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_edb6d7a3"
+          }
+        },
+        {
+          "title": "策划对话：user",
+          "text": "UI验证派生会话消息：随后会回退这一轮。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_d599c597"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证派生会话消息：随后会回退这一轮。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_6a4fd6db"
+          }
+        }
+      ],
+      "runtimeDirective": null,
+      "promptSections": [
+        {
+          "layer": "fixed_context",
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划 Skill 执行结果",
+          "text": "检索工具：search；query=UI验证派生会话消息：随后会回退这一轮。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证派生会话消息：随后会回退这一轮。",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3noby_6a4fd6db"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：user",
+          "text": "role=user\nrunId=run_mpm3nnd4_3cbddd\nbranch=session_mpm3nkuz_0s3zg\nUI验证派生会话消息：随后会回退这一轮。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_d599c597"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：assistant",
+          "text": "role=assistant\nrunId=run_mpm3nnd4_3cbddd\nbranch=session_mpm3nkuz_0s3zg\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证派生会话消息：随后会回退这一轮。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:51.172Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:51.173Z\"}",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_6a4fd6db"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划 Skill 执行结果",
+          "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3ng51_3fd510d6"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划 Skill 执行结果",
+          "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mpm3nkuz_edb6d7a3"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：user",
+          "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=main\nUI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_830772f9"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：user",
+          "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\nUI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_b5711ccc"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：assistant",
+          "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3ng51_3fd510d6"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：user",
+          "text": "UI验证主会话消息：只回复连接正常。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_b5711ccc"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3nkuz_edb6d7a3"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：user",
+          "text": "UI验证派生会话消息：随后会回退这一轮。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_d599c597"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证派生会话消息：随后会回退这一轮。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mpm3noby_6a4fd6db"
+          }
+        }
+      ],
+      "layers": {
+        "fixedContext": [
+          {
+            "title": "策划项目档案",
+            "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+            "source": {
+              "type": "archive",
+              "id": "planner"
+            }
+          }
+        ],
+        "triggeredLore": [],
+        "structuredMemory": [],
+        "retrievedEvidence": [
+          {
+            "id": "planning_msg_mpm3noby_6a4fd6db_skill_ops",
+            "title": "策划 Skill 执行结果",
+            "source": {
+              "type": "planning_skill_ops",
+              "id": "msg_mpm3noby_6a4fd6db"
+            },
+            "score": 1.629,
+            "bm25Score": 1,
+            "vectorScore": 0,
+            "rerankScore": 3.07,
+            "retrievalMode": "bm25",
+            "text": "检索工具：search；query=UI验证派生会话消息：随后会回退这一轮。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证派生会话消息：随后会回退这一轮。"
+          },
+          {
+            "id": "planning_msg_mpm3noby_d599c597",
+            "title": "策划对话：user",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3noby_d599c597"
+            },
+            "score": 1.0921,
+            "bm25Score": 0.896,
+            "vectorScore": 0,
+            "rerankScore": 1.934,
+            "retrievalMode": "bm25",
+            "text": "role=user\nrunId=run_mpm3nnd4_3cbddd\nbranch=session_mpm3nkuz_0s3zg\nUI验证派生会话消息：随后会回退这一轮。"
+          },
+          {
+            "id": "planning_msg_mpm3noby_6a4fd6db",
+            "title": "策划对话：assistant",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3noby_6a4fd6db"
+            },
+            "score": 0.912,
+            "bm25Score": 0.396,
+            "vectorScore": 0,
+            "rerankScore": 1.809,
+            "retrievalMode": "bm25",
+            "text": "role=assistant\nrunId=run_mpm3nnd4_3cbddd\nbranch=session_mpm3nkuz_0s3zg\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证派生会话消息：随后会回退这一轮。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:51.172Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:51.173Z\"}"
+          },
+          {
+            "id": "planning_msg_mpm3ng51_3fd510d6_skill_ops",
+            "title": "策划 Skill 执行结果",
+            "source": {
+              "type": "planning_skill_ops",
+              "id": "msg_mpm3ng51_3fd510d6"
+            },
+            "score": 0.4123,
+            "bm25Score": 0.0203,
+            "vectorScore": 0,
+            "rerankScore": 0.9051,
+            "retrievalMode": "bm25",
+            "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+          },
+          {
+            "id": "planning_msg_mpm3nkuz_edb6d7a3_skill_ops",
+            "title": "策划 Skill 执行结果",
+            "source": {
+              "type": "planning_skill_ops",
+              "id": "msg_mpm3nkuz_edb6d7a3"
+            },
+            "score": 0.4123,
+            "bm25Score": 0.0203,
+            "vectorScore": 0,
+            "rerankScore": 0.9051,
+            "retrievalMode": "bm25",
+            "text": "检索工具：search；query=UI验证主会话消息：只回复连接正常。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=UI验证主会话消息：只回复连接正常。"
+          },
+          {
+            "id": "planning_msg_mpm3ng51_830772f9",
+            "title": "策划对话：user",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3ng51_830772f9"
+            },
+            "score": 0.344,
+            "bm25Score": 0.0181,
+            "vectorScore": 0,
+            "rerankScore": 0.7545,
+            "retrievalMode": "bm25",
+            "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=main\nUI验证主会话消息：只回复连接正常。"
+          },
+          {
+            "id": "planning_msg_mpm3nkuz_b5711ccc",
+            "title": "策划对话：user",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3nkuz_b5711ccc"
+            },
+            "score": 0.344,
+            "bm25Score": 0.0181,
+            "vectorScore": 0,
+            "rerankScore": 0.7545,
+            "retrievalMode": "bm25",
+            "text": "role=user\nrunId=run_mpm3nf5m_b35beb\nbranch=session_mpm3nkuz_0s3zg\nUI验证主会话消息：只回复连接正常。"
+          },
+          {
+            "id": "planning_msg_mpm3ng51_3fd510d6",
+            "title": "策划对话：assistant",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3ng51_3fd510d6"
+            },
+            "score": 0.3404,
+            "bm25Score": 0.0079,
+            "vectorScore": 0,
+            "rerankScore": 0.752,
+            "retrievalMode": "bm25",
+            "text": "role=assistant\nrunId=run_mpm3nf5m_b35beb\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-05-26T03:52:40.731Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-05-26T03:52:40.731Z\"}"
+          }
+        ],
+        "recentContext": [
+          {
+            "title": "策划对话：user",
+            "text": "UI验证主会话消息：只回复连接正常。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3nkuz_b5711ccc"
+            }
+          },
+          {
+            "title": "策划对话：assistant",
+            "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证主会话消息：只回复连接正常。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3nkuz_edb6d7a3"
+            }
+          },
+          {
+            "title": "策划对话：user",
+            "text": "UI验证派生会话消息：随后会回退这一轮。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3noby_d599c597"
+            }
+          },
+          {
+            "title": "策划对话：assistant",
+            "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：UI验证派生会话消息：随后会回退这一轮。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mpm3noby_6a4fd6db"
+            }
+          }
+        ],
+        "runtimeDirective": null
+      },
+      "warnings": [],
+      "budget": {
+        "structuredMemory": 12,
+        "retrievedEvidence": 8,
+        "evidenceChars": 900,
+        "triggeredLore": 8,
+        "loreChars": 900,
+        "recursiveScanning": false,
+        "memoryLayerStats": {},
+        "preferredMemoryLayers": [
+          "stable_fact",
+          "tentative_judgment",
+          "author_memory",
+          "run_audit"
+        ]
+      },
+      "builtAt": "2026-05-26T03:52:51.174Z"
+    }
+  },
+  "settings": {
+    "enabled": true,
+    "maxStructuredItems": 12,
+    "maxRetrievedItems": 8,
+    "maxEvidenceChars": 900,
+    "retrievalMode": "hybrid",
+    "vectorEnabled": false,
+    "embeddingProviderId": "",
+    "embeddingModel": "",
+    "rerankEnabled": true,
+    "rerankProviderId": "",
+    "rerankModel": "",
+    "maxVectorCandidates": 40,
+    "vectorChunkChars": 900,
+    "projectSearchFastPath": false
+  },
+  "vectorIndex": {
+    "documents": [],
+    "sourceHash": "",
+    "embeddingProviderId": "",
+    "embeddingModel": "",
+    "embeddingBackend": "local_hash",
+    "dimensions": 256,
+    "documentCount": 0,
+    "chunkCount": 0,
+    "stale": true,
+    "updatedAt": ""
+  },
+  "updatedAt": "2026-05-26T03:52:30.301Z"
+}

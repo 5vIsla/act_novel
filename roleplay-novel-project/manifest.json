@@ -1,0 +1,9 @@
+{
+  "id": "novel_mph68e41_9701f525",
+  "title": "ctx_asset_payload_verify",
+  "exportedAt": "2026-05-22T17:06:34.669Z",
+  "updatedAt": "2026-05-22T17:06:34.258Z",
+  "format": "roleplay-novel-project.v1",
+  "authority": "server-store",
+  "note": "这些文件是后端从项目数据投影出来的工作区资料，用于 Agent 检索和人工查看；直接修改文件暂不会自动写回应用。"
+}

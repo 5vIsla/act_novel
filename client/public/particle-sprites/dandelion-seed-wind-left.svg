@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 72">
+  <defs>
+    <linearGradient id="stemLeft" x1="21" y1="23" x2="31" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffef1" stop-opacity=".92"/>
+      <stop offset=".62" stop-color="#d9c78f" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#9d8153" stop-opacity=".84"/>
+    </linearGradient>
+    <radialGradient id="tuftLeft" cx="22" cy="18" r="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".92"/>
+      <stop offset=".64" stop-color="#edf8ff" stop-opacity=".54"/>
+      <stop offset="1" stop-color="#d7eef8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="22" cy="19" r="23" fill="url(#tuftLeft)"/>
+  <g fill="none" stroke="#f7fbff" stroke-linecap="round">
+    <path stroke-opacity=".88" stroke-width="1.2" d="M25 35 20 3"/>
+    <path stroke-opacity=".78" stroke-width="1.05" d="M25 35 9 8M25 35 32 6"/>
+    <path stroke-opacity=".72" stroke-width=".95" d="M25 35 3 18M25 35 41 16"/>
+    <path stroke-opacity=".66" stroke-width=".85" d="M25 35 8 29M25 35 39 28"/>
+  </g>
+  <path fill="none" stroke="url(#stemLeft)" stroke-linecap="round" stroke-width="1.8" d="M25 34c3.8 8.1 5.1 17.1 4.1 27.4"/>
+  <path fill="#b59054" fill-opacity=".9" d="M29.2 60.1c3 1.7 4.3 3.8 4.1 6.3-.2 2.2-1.8 3.6-4.3 3.5-2.8-.2-4.4-2-4.2-4.4.1-2.3 1.6-4 4.4-5.4z"/>
+</svg>

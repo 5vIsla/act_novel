@@ -1,0 +1,3086 @@
+[
+  {
+    "id": "event_mpdv3eo1_714cf270",
+    "type": "novel_updated",
+    "createdAt": "2026-05-20T09:30:55.873Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpdym87e_adaef18d",
+    "type": "novel_updated",
+    "createdAt": "2026-05-20T11:09:32.810Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpebdgld_7bc5fc63",
+    "type": "memory_settings_updated",
+    "createdAt": "2026-05-20T17:06:38.785Z",
+    "payload": {
+      "settings": {
+        "enabled": true,
+        "maxStructuredItems": 12,
+        "maxRetrievedItems": 8,
+        "maxEvidenceChars": 900,
+        "retrievalMode": "hybrid",
+        "vectorEnabled": false,
+        "embeddingProviderId": "provider_mpdvpmxs_4869f1d8",
+        "embeddingModel": "BAAI/bge-m3",
+        "rerankEnabled": true,
+        "rerankProviderId": "provider_mpdvpmxs_4869f1d8",
+        "rerankModel": "BAAI/bge-reranker-v2-m3",
+        "maxVectorCandidates": 40,
+        "vectorChunkChars": 900
+      }
+    }
+  },
+  {
+    "id": "event_mpebdnla_c1c14140",
+    "type": "memory_settings_updated",
+    "createdAt": "2026-05-20T17:06:47.854Z",
+    "payload": {
+      "settings": {
+        "enabled": true,
+        "maxStructuredItems": 12,
+        "maxRetrievedItems": 8,
+        "maxEvidenceChars": 900,
+        "retrievalMode": "hybrid",
+        "vectorEnabled": false,
+        "embeddingProviderId": "provider_mpdvpmxs_4869f1d8",
+        "embeddingModel": "BAAI/bge-m3",
+        "rerankEnabled": true,
+        "rerankProviderId": "provider_mpdvpmxs_4869f1d8",
+        "rerankModel": "BAAI/bge-reranker-v2-m3",
+        "maxVectorCandidates": 40,
+        "vectorChunkChars": 900
+      }
+    }
+  },
+  {
+    "id": "event_mpebdvut_90da545a",
+    "type": "memory_settings_updated",
+    "createdAt": "2026-05-20T17:06:58.565Z",
+    "payload": {
+      "settings": {
+        "enabled": true,
+        "maxStructuredItems": 12,
+        "maxRetrievedItems": 8,
+        "maxEvidenceChars": 900,
+        "retrievalMode": "hybrid",
+        "vectorEnabled": true,
+        "embeddingProviderId": "provider_mpdvpmxs_4869f1d8",
+        "embeddingModel": "BAAI/bge-m3",
+        "rerankEnabled": true,
+        "rerankProviderId": "provider_mpdvpmxs_4869f1d8",
+        "rerankModel": "BAAI/bge-reranker-v2-m3",
+        "maxVectorCandidates": 40,
+        "vectorChunkChars": 900
+      }
+    }
+  },
+  {
+    "id": "event_mpermv3w_e6e64fc2",
+    "type": "memory_settings_updated",
+    "createdAt": "2026-05-21T00:41:51.356Z",
+    "payload": {
+      "settings": {
+        "enabled": true,
+        "maxStructuredItems": 12,
+        "maxRetrievedItems": 8,
+        "maxEvidenceChars": 900,
+        "retrievalMode": "hybrid",
+        "vectorEnabled": true,
+        "embeddingProviderId": "provider_mpdvpmxs_4869f1d8",
+        "embeddingModel": "Qwen/Qwen3-Embedding-4B",
+        "rerankEnabled": true,
+        "rerankProviderId": "provider_mpdvpmxs_4869f1d8",
+        "rerankModel": "Qwen/Qwen3-Reranker-4B",
+        "maxVectorCandidates": 40,
+        "vectorChunkChars": 900
+      }
+    }
+  },
+  {
+    "id": "event_mpfo3okk_9643c1b0",
+    "type": "lorebook_imported",
+    "createdAt": "2026-05-21T15:50:43.748Z",
+    "payload": {
+      "mode": "append",
+      "importedCount": 299,
+      "replaced": 0
+    }
+  },
+  {
+    "id": "event_mpfo4ij8_dc424560",
+    "type": "lorebook_settings_updated",
+    "createdAt": "2026-05-21T15:51:22.580Z",
+    "payload": {
+      "settings": {
+        "scanDepth": 4,
+        "maxTriggeredEntries": 8,
+        "maxCharsPerEntry": 900,
+        "recursiveScanning": false
+      }
+    }
+  },
+  {
+    "id": "event_mpfo5ogj_afe63664",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T15:52:16.915Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfqzfxq_92097283",
+    "type": "archives_extracted",
+    "createdAt": "2026-05-21T17:11:24.782Z",
+    "payload": {
+      "source": "planning_chat",
+      "messageId": "msg_mpfqzfxp_d0fb0c2a",
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpft8uwy_70868bb3",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:14:43.330Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpft8uxi_1bc952b8",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:14:43.350Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpft9ag1_5db8c322",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-21T18:15:03.457Z",
+    "payload": {
+      "runId": "run_local_file_agent_test_0e12fcae",
+      "messageId": "msg_mpft99pk_751b6851",
+      "hasArchivePatch": true,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 4,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpftb4i6_c113d195",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:16:29.070Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpftckis_9fd62515",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:17:36.484Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpftcnsm_b97f604e",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-21T18:17:40.726Z",
+    "payload": {
+      "runId": "run_local_file_agent_test_fc577a98",
+      "messageId": "msg_mpftclnc_ad76618d",
+      "hasArchivePatch": true,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpftcqz3_0f5589ed",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:17:44.847Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfteih7_a5abc859",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:19:07.147Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpftgx8k_c693be11",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:20:59.588Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpftw8vx_04404c72",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:32:54.525Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpftwa8t_2f342f13",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-21T18:32:56.285Z",
+    "payload": {
+      "runId": "run_local_file_agent_verify_1779388374507",
+      "messageId": "msg_mpftw9zk_3addfb9f",
+      "hasArchivePatch": true,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpftwarj_75957316",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:32:56.959Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfu3gpn_4e5c3d68",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:38:31.259Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfu3ip7_8d00816b",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-21T18:38:33.835Z",
+    "payload": {
+      "runId": "run_local_file_agent_compact_verify_1779388711212",
+      "messageId": "msg_mpfu3ic2_77ab843f",
+      "hasArchivePatch": true,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpfu3j9e_5547d8d2",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:38:34.562Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfu3xg5_d68e64d2",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:38:52.949Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfu8gb1_b5c647f6",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:42:24.013Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfu8ibt_0e126054",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-21T18:42:26.633Z",
+    "payload": {
+      "runId": "run_local_file_agent_dedupe_verify_1779388943953",
+      "messageId": "msg_mpfu8hs9_4c027590",
+      "hasArchivePatch": true,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpfu8ios_eea88cf1",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:42:27.100Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfufuqr_812ff060",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:48:09.315Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfufyum_b26b71d1",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:48:14.638Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfuk7xd_92b7c391",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:51:33.025Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpfukamm_dd173c9e",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-21T18:51:36.526Z",
+    "payload": {
+      "runId": "run_local_file_agent_mock_readonly_verify_1779389492951",
+      "messageId": "msg_mpfuk9l7_f4add3b4",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpfukb44_f643fa11",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T18:51:37.156Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpg58vnq_57dcad95",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T23:50:39.686Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpg58yey_2d6dd95b",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-21T23:50:43.258Z",
+    "payload": {
+      "runId": "run_tool_count_verify_1779407439606",
+      "messageId": "msg_mpg58xbt_c0c807db",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpg58yws_fe370647",
+    "type": "novel_updated",
+    "createdAt": "2026-05-21T23:50:43.900Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpg7y9mm_30cbb4dd",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T01:06:23.422Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpgml3fn_22bd80e2",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T07:56:03.107Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph3j1ak_51ab4214",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T15:50:20.492Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph3j6vb_d586c224",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-22T15:50:27.720Z",
+    "payload": {
+      "runId": "run_mph3j1sz_17f49208",
+      "messageId": "msg_mph3j2yh_32f56fd3",
+      "hasArchivePatch": true,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mph3j78m_8208c23e",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T15:50:28.198Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph3lewe_38745f9e",
+    "type": "lorebook_entry_updated",
+    "createdAt": "2026-05-22T15:52:11.438Z",
+    "payload": {
+      "lorebookId": "lore_mpfo3oid_6a4886e8",
+      "name": "---热门NPC---"
+    }
+  },
+  {
+    "id": "event_mph3lsjq_ec6988e3",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T15:52:29.126Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph3m1bp_ea48d3b4",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-22T15:52:40.501Z",
+    "payload": {
+      "runId": "run_mph3ltaf_d06ec755",
+      "messageId": "msg_mph3lx77_e6870c08",
+      "hasArchivePatch": true,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mph3p649_a8191363",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T15:55:06.681Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph3pplz_863544aa",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T15:55:31.943Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph3pvzc_691396cf",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-22T15:55:40.200Z",
+    "payload": {
+      "runId": "run_mph3pqep_480634a9",
+      "messageId": "msg_mph3prqw_69343729",
+      "hasArchivePatch": true,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mph3pwgd_1b50009a",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T15:55:40.813Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph5oqq1_07db6d29",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T16:50:45.961Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mph5owds_d644c4d9",
+    "type": "novel_updated",
+    "createdAt": "2026-05-22T16:50:53.296Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpl029eo_7331b6f0",
+    "type": "planning_chat_cancelled",
+    "createdAt": "2026-05-25T09:24:23.713Z",
+    "payload": {
+      "runId": "run_mpl000ia_b69b52"
+    }
+  },
+  {
+    "id": "event_mpl48m7c_cd27132d",
+    "type": "planning_chat_cancelled",
+    "createdAt": "2026-05-25T11:21:18.697Z",
+    "payload": {
+      "runId": "run_mpl45sry_95e09e"
+    }
+  },
+  {
+    "id": "event_mpl4i6cb_af731833",
+    "type": "planning_chat_cancelled",
+    "createdAt": "2026-05-25T11:28:44.699Z",
+    "payload": {
+      "runId": "run_mpl4d4jy_b094eb8e"
+    }
+  },
+  {
+    "id": "event_mpl5ap82_06bf3941",
+    "type": "novel_updated",
+    "createdAt": "2026-05-25T11:50:55.538Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mplzpn34_0afd7fb4",
+    "type": "planning_checkpoint_reverted",
+    "createdAt": "2026-05-26T02:02:21.088Z",
+    "payload": {
+      "runId": "run_mpla1hwp_94c846",
+      "checkpointId": "checkpoint_mpla2aif_dc3626d9",
+      "checkpointLabel": "运行片段 1 前"
+    }
+  },
+  {
+    "id": "event_mpm0ogut_101a8d80",
+    "type": "novel_updated",
+    "createdAt": "2026-05-26T02:29:25.973Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpm4p1eu_983d114f",
+    "type": "planning_session_cleared",
+    "createdAt": "2026-05-26T04:21:51.078Z",
+    "payload": {
+      "branchId": "main",
+      "removedMessages": 4,
+      "removedRuns": 9
+    }
+  },
+  {
+    "id": "event_mpm4vom5_dba25cc1",
+    "type": "planning_chat_cancelled",
+    "createdAt": "2026-05-26T04:27:01.085Z",
+    "payload": {
+      "runId": "run_mpm4p86m_7284a4"
+    }
+  },
+  {
+    "id": "event_mpmaz8zl_ef0498e8",
+    "type": "novel_updated",
+    "createdAt": "2026-05-26T07:17:45.153Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpmb1y4p_4cb1ffdd",
+    "type": "planning_session_cleared",
+    "createdAt": "2026-05-26T07:19:51.049Z",
+    "payload": {
+      "branchId": "main",
+      "removedMessages": 0,
+      "removedRuns": 1
+    }
+  },
+  {
+    "id": "event_mpmb5ef5_10354001",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-26T07:22:32.129Z",
+    "payload": {
+      "runId": "run_mpmb230n_5e5f27",
+      "messageId": "msg_mpmb23tf_8482d6f0",
+      "branchId": "main",
+      "forkFromMessageId": "",
+      "hasArchivePatch": false,
+      "skillOps": 9,
+      "appliedSkillOps": 0,
+      "agentSteps": 5,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmberul_835d354c",
+    "type": "planning_session_cleared",
+    "createdAt": "2026-05-26T07:29:49.437Z",
+    "payload": {
+      "branchId": "main",
+      "removedMessages": 2,
+      "removedRuns": 1
+    }
+  },
+  {
+    "id": "event_mpmbi12c_235c7970",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-26T07:32:21.348Z",
+    "payload": {
+      "runId": "run_mpmbevld_4f1cc2",
+      "messageId": "msg_mpmbewdp_ce478188",
+      "branchId": "main",
+      "forkFromMessageId": "",
+      "hasArchivePatch": false,
+      "skillOps": 10,
+      "appliedSkillOps": 0,
+      "agentSteps": 5,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmbimzb_c20db736",
+    "type": "planning_session_cleared",
+    "createdAt": "2026-05-26T07:32:49.751Z",
+    "payload": {
+      "branchId": "main",
+      "removedMessages": 2,
+      "removedRuns": 1
+    }
+  },
+  {
+    "id": "event_mpmbisf1_b6104652",
+    "type": "planning_session_cleared",
+    "createdAt": "2026-05-26T07:32:56.797Z",
+    "payload": {
+      "branchId": "main",
+      "removedMessages": 0,
+      "removedRuns": 0
+    }
+  },
+  {
+    "id": "event_mpmbz4wt_2596a3e6",
+    "type": "novel_updated",
+    "createdAt": "2026-05-26T07:45:39.485Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpmbzejn_db4013cb",
+    "type": "novel_updated",
+    "createdAt": "2026-05-26T07:45:51.971Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpmc3pza_4647a680",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-26T07:49:13.414Z",
+    "payload": {
+      "runId": "run_mpmbzn0n_1b72cc",
+      "messageId": "msg_mpmbzno0_457eeb51",
+      "branchId": "main",
+      "forkFromMessageId": "",
+      "hasArchivePatch": false,
+      "skillOps": 17,
+      "appliedSkillOps": 0,
+      "agentSteps": 5,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmduyk2_0abd9ce3",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T08:38:23.858Z",
+    "payload": {
+      "branchId": "branch_mpmdux1u_e83d20",
+      "parentBranchId": "main",
+      "forkFromMessageId": "msg_mpmbzn12_f37ac696",
+      "forkFromRunId": "run_mpmbzn0n_1b72cc"
+    }
+  },
+  {
+    "id": "event_mpmduyyw_84cc13b3",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T08:38:24.392Z",
+    "payload": {
+      "branchId": "branch_mpmdux1u_e83d20",
+      "parentBranchId": "main",
+      "forkFromMessageId": "msg_mpmbzn12_f37ac696",
+      "forkFromRunId": "run_mpmbzn0n_1b72cc"
+    }
+  },
+  {
+    "id": "event_mpme14oz_2baa252d",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-26T08:43:11.747Z",
+    "payload": {
+      "runId": "run_mpmduyfn_298b4c",
+      "messageId": "msg_mpmduzld_e1cfc1cf",
+      "branchId": "branch_mpmdux1u_e83d20",
+      "forkFromMessageId": "msg_mpmbzn12_f37ac696",
+      "hasArchivePatch": false,
+      "skillOps": 12,
+      "appliedSkillOps": 0,
+      "agentSteps": 4,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmghbdj_7b6063f0",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T09:51:46.135Z",
+    "payload": {
+      "branchId": "branch_mpmgha59_b69a2b",
+      "parentBranchId": "branch_mpmdux1u_e83d20",
+      "forkFromMessageId": "msg_mpmduyk2_f63201c8",
+      "replaceFromMessageId": "msg_mpmduyk2_f63201c8",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmbzn0n_1b72cc"
+    }
+  },
+  {
+    "id": "event_mpmghc1p_2f9337ff",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T09:51:47.005Z",
+    "payload": {
+      "branchId": "branch_mpmgha59_b69a2b",
+      "parentBranchId": "branch_mpmdux1u_e83d20",
+      "forkFromMessageId": "msg_mpmduyk2_f63201c8",
+      "replaceFromMessageId": "msg_mpmduyk2_f63201c8",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmbzn0n_1b72cc"
+    }
+  },
+  {
+    "id": "event_mpmgny8s_449c9b55",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-26T09:56:55.708Z",
+    "payload": {
+      "runId": "run_mpmghb5j_53f95b",
+      "messageId": "msg_mpmghecu_f783221f",
+      "branchId": "branch_mpmgha59_b69a2b",
+      "forkFromMessageId": "msg_mpmduyk2_f63201c8",
+      "replaceFromMessageId": "msg_mpmduyk2_f63201c8",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 7,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 2,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmooxmj_afc4df4a",
+    "type": "planning_session_cleared",
+    "createdAt": "2026-05-26T13:41:38.491Z",
+    "payload": {
+      "branchId": "branch_mpmgha59_b69a2b",
+      "removedMessages": 2,
+      "removedRuns": 1
+    }
+  },
+  {
+    "id": "event_mpmop48q_7a7dd42f",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-26T13:41:47.067Z",
+    "payload": {
+      "branchId": "branch_mpmgha59_b69a2b"
+    }
+  },
+  {
+    "id": "event_mpmop722_f36c3375",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-26T13:41:50.714Z",
+    "payload": {
+      "branchId": "branch_mpmdux1u_e83d20"
+    }
+  },
+  {
+    "id": "event_mpmopdxt_b3f5d7b4",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T13:41:59.633Z",
+    "payload": {
+      "branchId": "branch_mpmopb9o_7efc5f",
+      "parentBranchId": "main",
+      "forkFromMessageId": "msg_mpmbzn12_f37ac696",
+      "replaceFromMessageId": "msg_mpmbzn12_f37ac696",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmbzn0n_1b72cc"
+    }
+  },
+  {
+    "id": "event_mpmopekb_4ab36aaf",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T13:42:00.443Z",
+    "payload": {
+      "branchId": "branch_mpmopb9o_7efc5f",
+      "parentBranchId": "main",
+      "forkFromMessageId": "msg_mpmbzn12_f37ac696",
+      "replaceFromMessageId": "msg_mpmbzn12_f37ac696",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmbzn0n_1b72cc"
+    }
+  },
+  {
+    "id": "event_mpmosfki_d58695b2",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-26T13:44:21.714Z",
+    "payload": {
+      "runId": "run_mpmopdow_01ed36",
+      "messageId": "msg_mpmopgxv_fb7cf235",
+      "branchId": "branch_mpmopb9o_7efc5f",
+      "forkFromMessageId": "msg_mpmbzn12_f37ac696",
+      "replaceFromMessageId": "msg_mpmbzn12_f37ac696",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmqhr32_24d1603f",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T14:32:02.654Z",
+    "payload": {
+      "branchId": "branch_mpmqhduk_35440f",
+      "parentBranchId": "branch_mpmopb9o_7efc5f",
+      "forkFromMessageId": "msg_mpmopdyu_413a4833",
+      "replaceFromMessageId": "msg_mpmopdyu_413a4833",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmopdow_01ed36"
+    }
+  },
+  {
+    "id": "event_mpmqhruv_78e5896c",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T14:32:03.655Z",
+    "payload": {
+      "branchId": "branch_mpmqhduk_35440f",
+      "parentBranchId": "branch_mpmopb9o_7efc5f",
+      "forkFromMessageId": "msg_mpmopdyu_413a4833",
+      "replaceFromMessageId": "msg_mpmopdyu_413a4833",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmopdow_01ed36"
+    }
+  },
+  {
+    "id": "event_mpmqjyyv_e1f3adbd",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-26T14:33:46.183Z",
+    "payload": {
+      "runId": "run_mpmqhqtt_b0ae0d",
+      "messageId": "msg_mpmqhtzz_5b658b1f",
+      "branchId": "branch_mpmqhduk_35440f",
+      "forkFromMessageId": "msg_mpmopdyu_413a4833",
+      "replaceFromMessageId": "msg_mpmopdyu_413a4833",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmti51o_2eb34ef2",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-26T15:56:19.596Z",
+    "payload": {
+      "branchId": "branch_mpmopb9o_7efc5f"
+    }
+  },
+  {
+    "id": "event_mpmtj5mb_1607a497",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T15:57:06.995Z",
+    "payload": {
+      "branchId": "branch_mpmtj1zk_4263da",
+      "parentBranchId": "branch_mpmqhduk_35440f",
+      "forkFromMessageId": "msg_mpmqhr4a_72d8a53d",
+      "replaceFromMessageId": "msg_mpmqhr4a_72d8a53d",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmqhqtt_b0ae0d"
+    }
+  },
+  {
+    "id": "event_mpmtj697_424bf3ce",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T15:57:07.819Z",
+    "payload": {
+      "branchId": "branch_mpmtj1zk_4263da",
+      "parentBranchId": "branch_mpmqhduk_35440f",
+      "forkFromMessageId": "msg_mpmqhr4a_72d8a53d",
+      "replaceFromMessageId": "msg_mpmqhr4a_72d8a53d",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmqhqtt_b0ae0d"
+    }
+  },
+  {
+    "id": "event_mpmtleo9_dabaa04c",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-26T15:58:52.041Z",
+    "payload": {
+      "runId": "run_mpmtj5am_5bcddf",
+      "messageId": "msg_mpmtj9ms_ee8f19bc",
+      "branchId": "branch_mpmtj1zk_4263da",
+      "forkFromMessageId": "msg_mpmqhr4a_72d8a53d",
+      "replaceFromMessageId": "msg_mpmqhr4a_72d8a53d",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpmv49x3_2b0a6db0",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T16:41:31.960Z",
+    "payload": {
+      "branchId": "branch_mpmv48k0_80be8d",
+      "parentBranchId": "branch_mpmtj1zk_4263da",
+      "forkFromMessageId": "msg_mpmtj5nn_c5304836",
+      "replaceFromMessageId": "msg_mpmtj5nn_c5304836",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmtj5am_5bcddf"
+    }
+  },
+  {
+    "id": "event_mpmv4atx_be61753f",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T16:41:33.141Z",
+    "payload": {
+      "branchId": "branch_mpmv48k0_80be8d",
+      "parentBranchId": "branch_mpmtj1zk_4263da",
+      "forkFromMessageId": "msg_mpmtj5nn_c5304836",
+      "replaceFromMessageId": "msg_mpmtj5nn_c5304836",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmtj5am_5bcddf"
+    }
+  },
+  {
+    "id": "event_mpmv6l4b_4fd7685c",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-26T16:43:19.787Z",
+    "payload": {
+      "runId": "run_mpmv49js_2147ba",
+      "messageId": "msg_mpmv4dvs_002b61b3",
+      "branchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmtj5nn_c5304836",
+      "replaceFromMessageId": "msg_mpmtj5nn_c5304836",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpnaqzut_520c9a7f",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T23:59:06.245Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mpnar0oh_4e55ae01",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-26T23:59:07.313Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mpnatg14_c7ef6de8",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-27T00:01:00.520Z",
+    "payload": {
+      "runId": "run_mpnaqzfr_3aec6a",
+      "messageId": "msg_mpnar31s_a8f326a7",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpnblm47_4bf0e779",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-27T00:22:54.775Z",
+    "payload": {
+      "branchId": "branch_mpmv48k0_80be8d"
+    }
+  },
+  {
+    "id": "event_mpnblprr_b6be0555",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-27T00:22:59.511Z",
+    "payload": {
+      "branchId": "branch_mpmtj1zk_4263da"
+    }
+  },
+  {
+    "id": "event_mpnblsrg_57a4d1e4",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-27T00:23:03.388Z",
+    "payload": {
+      "branchId": "branch_mpmqhduk_35440f"
+    }
+  },
+  {
+    "id": "event_mpnbn075_cafd807d",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-27T00:23:59.681Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mpnbn1jz_cba33e82",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-27T00:24:01.439Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mpnbvare_576c8476",
+    "type": "planning_tool_archive_patch_applied",
+    "createdAt": "2026-05-27T00:30:26.618Z",
+    "payload": {
+      "source": "native_tool_call",
+      "sourceId": "msg_mpnbn3wu_cbf9d1a2",
+      "appliedFields": [
+        "premise",
+        "background",
+        "outline",
+        "style",
+        "characters",
+        "scenes",
+        "clues"
+      ],
+      "skipped": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "event_mpnbx87w_f3538e47",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-27T00:31:56.636Z",
+    "payload": {
+      "runId": "run_mpnbmzr5_d6436d",
+      "messageId": "msg_mpnbn3wu_cbf9d1a2",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 16,
+      "appliedSkillOps": 1,
+      "agentSteps": 6,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpp5h1pa_90ce384c",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:06:56.350Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mpp5h3nc_8eb783bf",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:06:58.872Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mpp5iol9_018530d0",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-28T07:08:12.669Z",
+    "payload": {
+      "runId": "run_mpp5h10l_11ee86",
+      "messageId": "msg_mpp5h6tg_47e4e2a9",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpp5q0tr_aa50ebbe",
+    "type": "novel_updated",
+    "createdAt": "2026-05-28T07:13:55.119Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpp5q6ou_749447c5",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:14:02.718Z",
+    "payload": {
+      "branchId": "branch_mpp5q427_7c783c",
+      "parentBranchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "replaceFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5h10l_11ee86"
+    }
+  },
+  {
+    "id": "event_mpp5q8vr_a5b62f7d",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:14:05.559Z",
+    "payload": {
+      "branchId": "branch_mpp5q427_7c783c",
+      "parentBranchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "replaceFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5h10l_11ee86"
+    }
+  },
+  {
+    "id": "event_mpp5rq37_e46f394c",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:15:14.515Z",
+    "payload": {
+      "branchId": "branch_mpp5q427_7c783c",
+      "parentBranchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "replaceFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5h10l_11ee86"
+    }
+  },
+  {
+    "id": "event_mpp5rs1z_54c22ad2",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:15:17.063Z",
+    "payload": {
+      "branchId": "branch_mpp5q427_7c783c",
+      "parentBranchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "replaceFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5h10l_11ee86"
+    }
+  },
+  {
+    "id": "event_mpp5t5uo_c5e91114",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:16:21.600Z",
+    "payload": {
+      "branchId": "branch_mpp5q427_7c783c",
+      "parentBranchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "replaceFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5h10l_11ee86"
+    }
+  },
+  {
+    "id": "event_mpp5t89p_630dc799",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:16:24.733Z",
+    "payload": {
+      "branchId": "branch_mpp5q427_7c783c",
+      "parentBranchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "replaceFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5h10l_11ee86"
+    }
+  },
+  {
+    "id": "event_mpp5zksg_fd68212a",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-28T07:21:20.896Z",
+    "payload": {
+      "runId": "run_mpp5t5bg_739c6a9c",
+      "messageId": "msg_mpp5tbnk_9bc34ce5",
+      "branchId": "branch_mpp5q427_7c783c",
+      "forkFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "replaceFromMessageId": "msg_mpp5h1sh_8df5fdf4",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 7,
+      "appliedSkillOps": 0,
+      "agentSteps": 7,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpp61t7z_3252d352",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:23:05.135Z",
+    "payload": {
+      "branchId": "branch_mpp61qqp_d5d802",
+      "parentBranchId": "branch_mpp5q427_7c783c",
+      "forkFromMessageId": "msg_mpp5q6s8_11df70da",
+      "replaceFromMessageId": "msg_mpp5q6s8_11df70da",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5q5xn_a1006b"
+    }
+  },
+  {
+    "id": "event_mpp61vqo_8a3b6e01",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:23:08.400Z",
+    "payload": {
+      "branchId": "branch_mpp61qqp_d5d802",
+      "parentBranchId": "branch_mpp5q427_7c783c",
+      "forkFromMessageId": "msg_mpp5q6s8_11df70da",
+      "replaceFromMessageId": "msg_mpp5q6s8_11df70da",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp5q5xn_a1006b"
+    }
+  },
+  {
+    "id": "event_mpp63kte_28e42e5e",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-28T07:24:27.554Z",
+    "payload": {
+      "runId": "run_mpp61s3e_549482",
+      "messageId": "msg_mpp61zt8_43c2228b",
+      "branchId": "branch_mpp61qqp_d5d802",
+      "forkFromMessageId": "msg_mpp5q6s8_11df70da",
+      "replaceFromMessageId": "msg_mpp5q6s8_11df70da",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpp66qcm_66f5fdf7",
+    "type": "novel_updated",
+    "createdAt": "2026-05-28T07:26:54.694Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpp6y9k9_7ae509c0",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:48:19.305Z",
+    "payload": {
+      "branchId": "branch_mpp6y4v0_437403",
+      "parentBranchId": "branch_mpp61qqp_d5d802",
+      "forkFromMessageId": "msg_mpp61td2_0357b1ab",
+      "replaceFromMessageId": "msg_mpp61td2_0357b1ab",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp61s3e_549482"
+    }
+  },
+  {
+    "id": "event_mpp6yd7n_bb540fe0",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:48:24.035Z",
+    "payload": {
+      "branchId": "branch_mpp6y4v0_437403",
+      "parentBranchId": "branch_mpp61qqp_d5d802",
+      "forkFromMessageId": "msg_mpp61td2_0357b1ab",
+      "replaceFromMessageId": "msg_mpp61td2_0357b1ab",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp61s3e_549482"
+    }
+  },
+  {
+    "id": "event_mpp72mgm_36d16f83",
+    "type": "novel_updated",
+    "createdAt": "2026-05-28T07:51:42.646Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpp72tdx_0c255f35",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:51:51.621Z",
+    "payload": {
+      "branchId": "branch_mpp72ra9_f59fb0",
+      "parentBranchId": "branch_mpp6y4v0_437403",
+      "forkFromMessageId": "msg_mpp6y9q5_ac75049f",
+      "replaceFromMessageId": "msg_mpp6y9q5_ac75049f",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp6y8it_996762"
+    }
+  },
+  {
+    "id": "event_mpp72x00_2544b809",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T07:51:56.304Z",
+    "payload": {
+      "branchId": "branch_mpp72ra9_f59fb0",
+      "parentBranchId": "branch_mpp6y4v0_437403",
+      "forkFromMessageId": "msg_mpp6y9q5_ac75049f",
+      "replaceFromMessageId": "msg_mpp6y9q5_ac75049f",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp6y8it_996762"
+    }
+  },
+  {
+    "id": "event_mpp74ogb_87dfb772",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-28T07:53:18.539Z",
+    "payload": {
+      "runId": "run_mpp72sdc_6f3e1c",
+      "messageId": "msg_mpp731eq_77129dc5",
+      "branchId": "branch_mpp72ra9_f59fb0",
+      "forkFromMessageId": "msg_mpp6y9q5_ac75049f",
+      "replaceFromMessageId": "msg_mpp6y9q5_ac75049f",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpp97slx_f1fdcf99",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T08:51:43.125Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "parentBranchId": "branch_mpp72ra9_f59fb0",
+      "forkFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "replaceFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp72sdc_6f3e1c"
+    }
+  },
+  {
+    "id": "event_mpp97wpg_2b0e868a",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T08:51:48.437Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "parentBranchId": "branch_mpp72ra9_f59fb0",
+      "forkFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "replaceFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp72sdc_6f3e1c"
+    }
+  },
+  {
+    "id": "event_mpp9cakp_d0fc5f23",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-28T08:55:13.033Z",
+    "payload": {
+      "runId": "run_mpp97rj9_87142d",
+      "messageId": "msg_mpp981yg_ff14acd2",
+      "branchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "replaceFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpp9crp7_17affdcb",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T08:55:35.227Z",
+    "payload": {
+      "branchId": "branch_mpp98r1h_30b3ef",
+      "parentBranchId": "branch_mpp72ra9_f59fb0",
+      "forkFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "replaceFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp72sdc_6f3e1c"
+    }
+  },
+  {
+    "id": "event_mpp9cw5s_d11425b1",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T08:55:41.008Z",
+    "payload": {
+      "branchId": "branch_mpp98r1h_30b3ef",
+      "parentBranchId": "branch_mpp72ra9_f59fb0",
+      "forkFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "replaceFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp72sdc_6f3e1c"
+    }
+  },
+  {
+    "id": "event_mpp9gd6b_099d5363",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-28T08:58:23.028Z",
+    "payload": {
+      "runId": "run_mpp98x4r_584eba",
+      "messageId": "msg_mpp9d0pt_64ec8fca",
+      "branchId": "branch_mpp98r1h_30b3ef",
+      "forkFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "replaceFromMessageId": "msg_mpp72tjm_4b0bd3c6",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mppcqbo7_48d7cc14",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T10:30:06.487Z",
+    "payload": {
+      "branchId": "branch_mppcq666_27b918",
+      "parentBranchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mpp97srz_ed9295b9",
+      "replaceFromMessageId": "msg_mpp97srz_ed9295b9",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp97rj9_87142d"
+    }
+  },
+  {
+    "id": "event_mppcqfg8_1cc69f92",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-28T10:30:11.384Z",
+    "payload": {
+      "branchId": "branch_mppcq666_27b918",
+      "parentBranchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mpp97srz_ed9295b9",
+      "replaceFromMessageId": "msg_mpp97srz_ed9295b9",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpp97rj9_87142d"
+    }
+  },
+  {
+    "id": "event_mppcujw8_66b5786a",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-28T10:33:23.768Z",
+    "payload": {
+      "runId": "run_mppcqaiy_fc6e9e",
+      "messageId": "msg_mppcqkvn_8baf6535",
+      "branchId": "branch_mppcq666_27b918",
+      "forkFromMessageId": "msg_mpp97srz_ed9295b9",
+      "replaceFromMessageId": "msg_mpp97srz_ed9295b9",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 1,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpplsd0c_94b0f7ee",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T14:43:38.076Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mpp97srz_ed9295b9",
+      "removedMessageIds": [
+        "msg_mpp97srz_ed9295b9",
+        "msg_mpp981yg_ff14acd2"
+      ]
+    }
+  },
+  {
+    "id": "event_mpplsv2n_77c45bb2",
+    "type": "planning_chat_cancelled",
+    "createdAt": "2026-05-28T14:44:01.488Z",
+    "payload": {
+      "runId": "run_mpplsbio_527f8c"
+    }
+  },
+  {
+    "id": "event_mppltonm_6572547b",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T14:44:39.826Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mpplsd6r_3a193cf4",
+      "removedMessageIds": [
+        "msg_mpplsd6r_3a193cf4"
+      ]
+    }
+  },
+  {
+    "id": "event_mpplxf0t_b9a414e7",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-28T14:47:33.965Z",
+    "payload": {
+      "runId": "run_mppltn7i_fed442",
+      "messageId": "msg_mppltwox_9db6f9ee",
+      "branchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mpplsd6r_3a193cf4",
+      "replaceFromMessageId": "msg_mpplsd6r_3a193cf4",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpplz9dj_6f1bea0f",
+    "type": "novel_updated",
+    "createdAt": "2026-05-28T14:48:59.959Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpplzhou_e05c7ce3",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T14:49:10.734Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mppltotx_ee4d64a8",
+      "removedMessageIds": [
+        "msg_mppltotx_ee4d64a8",
+        "msg_mppltwox_9db6f9ee"
+      ]
+    }
+  },
+  {
+    "id": "event_mppm15ad_eef5443e",
+    "type": "novel_updated",
+    "createdAt": "2026-05-28T14:50:27.973Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mppm1bye_210c10f0",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T14:50:36.614Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mpplzhva_32b8f685",
+      "removedMessageIds": [
+        "msg_mpplzhva_32b8f685"
+      ]
+    }
+  },
+  {
+    "id": "event_mppm5jc0_ad5ca86c",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T14:53:52.800Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mppm1c58_c2662fb7",
+      "removedMessageIds": [
+        "msg_mppm1c58_c2662fb7"
+      ]
+    }
+  },
+  {
+    "id": "event_mppm81sh_38656c8e",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T14:55:50.033Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mppm5jiv_6b9dae0e",
+      "removedMessageIds": [
+        "msg_mppm5jiv_6b9dae0e"
+      ]
+    }
+  },
+  {
+    "id": "event_mppm9e7q_e10e8171",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T14:56:52.790Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mppm820q_ae571a46",
+      "removedMessageIds": [
+        "msg_mppm820q_ae571a46"
+      ]
+    }
+  },
+  {
+    "id": "event_mppmc208_c14f5fb4",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-28T14:58:56.936Z",
+    "payload": {
+      "runId": "run_mppm9cic_371ada",
+      "messageId": "msg_mppm9li2_da89f7d3",
+      "branchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mppm820q_ae571a46",
+      "replaceFromMessageId": "msg_mppm820q_ae571a46",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mppmgza7_f1aaaef5",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T15:02:46.687Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mppm9ef4_6b6ad294",
+      "removedMessageIds": [
+        "msg_mppm9ef4_6b6ad294",
+        "msg_mppm9li2_da89f7d3"
+      ]
+    }
+  },
+  {
+    "id": "event_mppmjl3y_46ffd280",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-28T15:04:48.286Z",
+    "payload": {
+      "runId": "run_mppmgxiw_3d951a",
+      "messageId": "msg_mppmh4vb_2ff31070",
+      "branchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mppm9ef4_6b6ad294",
+      "replaceFromMessageId": "msg_mppm9ef4_6b6ad294",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mppmkupi_bd2bc2ef",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T15:05:47.382Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mppmgzhy_f703e4da",
+      "removedMessageIds": [
+        "msg_mppmgzhy_f703e4da",
+        "msg_mppmh4vb_2ff31070"
+      ]
+    }
+  },
+  {
+    "id": "event_mppmmm0i_390d9f40",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-28T15:07:09.426Z",
+    "payload": {
+      "runId": "run_mppmkshu_a5f698",
+      "messageId": "msg_mppml1w2_0e9d6245",
+      "branchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mppmgzhy_f703e4da",
+      "replaceFromMessageId": "msg_mppmgzhy_f703e4da",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mppmncrn_27a36a06",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-28T15:07:44.099Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575",
+      "replaceFromMessageId": "msg_mppmkuxy_8832b36e",
+      "removedMessageIds": [
+        "msg_mppmkuxy_8832b36e",
+        "msg_mppml1w2_0e9d6245"
+      ]
+    }
+  },
+  {
+    "id": "event_mppmqnfp_6279ad5a",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-28T15:10:17.893Z",
+    "payload": {
+      "runId": "run_mppmn8xm_063902",
+      "messageId": "msg_mppmo0yf_9cc2e293",
+      "branchId": "branch_mpp96iwg_b14575",
+      "forkFromMessageId": "msg_mppmkuxy_8832b36e",
+      "replaceFromMessageId": "msg_mppmkuxy_8832b36e",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mppmw7y1_58815684",
+    "type": "novel_updated",
+    "createdAt": "2026-05-28T15:14:37.753Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mpqa0aqy_087abea4",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-29T02:01:39.178Z",
+    "payload": {
+      "branchId": "branch_mpp96iwg_b14575"
+    }
+  },
+  {
+    "id": "event_mpqa4p3v_156a95bc",
+    "type": "planning_session_deleted",
+    "createdAt": "2026-05-29T02:05:04.411Z",
+    "payload": {
+      "branchId": "branch_mpp98r1h_30b3ef"
+    }
+  },
+  {
+    "id": "event_mpqfonco_939f7623",
+    "type": "planning_branch_switched",
+    "createdAt": "2026-05-29T04:40:33.336Z",
+    "payload": {
+      "branchId": "branch_mpp72ra9_f59fb0"
+    }
+  },
+  {
+    "id": "event_mpqishjm_e12ed108",
+    "type": "planning_branch_switched",
+    "createdAt": "2026-05-29T06:07:31.282Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205"
+    }
+  },
+  {
+    "id": "event_mpqisvfm_006b7336",
+    "type": "planning_branch_switched",
+    "createdAt": "2026-05-29T06:07:49.282Z",
+    "payload": {
+      "branchId": "branch_mpp72ra9_f59fb0"
+    }
+  },
+  {
+    "id": "event_mpqit7im_2fe5c2ab",
+    "type": "planning_branch_switched",
+    "createdAt": "2026-05-29T06:08:04.942Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205"
+    }
+  },
+  {
+    "id": "event_mpqitklq_9f84ef6c",
+    "type": "planning_session_updated",
+    "createdAt": "2026-05-29T06:08:21.902Z",
+    "payload": {
+      "branchId": "branch_mpp72ra9_f59fb0",
+      "archived": false,
+      "pinned": false
+    }
+  },
+  {
+    "id": "event_mpqitojq_182f5acd",
+    "type": "planning_branch_switched",
+    "createdAt": "2026-05-29T06:08:27.014Z",
+    "payload": {
+      "branchId": "branch_mpp72ra9_f59fb0"
+    }
+  },
+  {
+    "id": "event_mpqittds_003d30f4",
+    "type": "planning_branch_switched",
+    "createdAt": "2026-05-29T06:08:33.280Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205"
+    }
+  },
+  {
+    "id": "event_mps1vwwn_2cef8dbb",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-30T07:49:50.039Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mps1zjhv_7faeee89",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-30T07:52:39.283Z",
+    "payload": {
+      "runId": "run_mps1vuxe_94d64d",
+      "messageId": "msg_mps1wy9r_b1a04ba9",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 5,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpt1lbjq_c5609281",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T00:29:21.974Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mps1vx4z_c84098e9",
+      "removedMessageIds": [
+        "msg_mps1vx4z_c84098e9",
+        "msg_mps1wy9r_b1a04ba9"
+      ]
+    }
+  },
+  {
+    "id": "event_mpt1qx3f_236669bd",
+    "type": "planning_tool_archive_patch_applied",
+    "createdAt": "2026-05-31T00:33:43.179Z",
+    "payload": {
+      "source": "tool_registry",
+      "sourceId": "msg_mpt1lo5w_1cca346d",
+      "appliedFields": [
+        "characters",
+        "clues"
+      ],
+      "skipped": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "event_mpt1rswu_49ca7483",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-31T00:34:24.414Z",
+    "payload": {
+      "runId": "run_mpt1l9hm_67db3c",
+      "messageId": "msg_mpt1lo5w_1cca346d",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mps1vx4z_c84098e9",
+      "replaceFromMessageId": "msg_mps1vx4z_c84098e9",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": true,
+      "skillOps": 8,
+      "appliedSkillOps": 1,
+      "agentSteps": 5,
+      "conflictCount": 1,
+      "correctionCount": 2
+    }
+  },
+  {
+    "id": "event_mpt1thl5_ed2f3077",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-05-31T00:35:43.049Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mpt1v37a_43f663a5",
+    "type": "planning_chat_cancelled",
+    "createdAt": "2026-05-31T00:36:57.719Z",
+    "payload": {
+      "runId": "run_mpt1tcqs_1f7816"
+    }
+  },
+  {
+    "id": "event_mpt7drjz_7f3c9cf3",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T03:11:27.167Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mpt1lbtx_43e82d16",
+      "removedMessageIds": [
+        "msg_mpt1lbtx_43e82d16",
+        "msg_mpt1lo5w_1cca346d",
+        "msg_mpt1thva_4d3b9399"
+      ]
+    }
+  },
+  {
+    "id": "event_mpt7g0w7_21e1a106",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-31T03:13:12.583Z",
+    "payload": {
+      "runId": "run_mpt7dq7s_6c4cb4",
+      "messageId": "msg_mpt7e3zt_344a62ba",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpt1lbtx_43e82d16",
+      "replaceFromMessageId": "msg_mpt1lbtx_43e82d16",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 3,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 2,
+      "correctionCount": 1
+    }
+  },
+  {
+    "id": "event_mpt7jhsu_625a1f64",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T03:15:54.462Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mpt7drtb_47f59343",
+      "removedMessageIds": [
+        "msg_mpt7drtb_47f59343",
+        "msg_mpt7e3zt_344a62ba"
+      ]
+    }
+  },
+  {
+    "id": "event_mpt7n76f_e4e38015",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-31T03:18:47.319Z",
+    "payload": {
+      "runId": "run_mpt7jgf0_28004e",
+      "messageId": "msg_mpt7jtv3_32533dc8",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpt7drtb_47f59343",
+      "replaceFromMessageId": "msg_mpt7drtb_47f59343",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 1,
+      "correctionCount": 1
+    }
+  },
+  {
+    "id": "event_mpt9jlx3_73b6ec91",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T04:11:59.031Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mpt7ji2p_f25f0050",
+      "removedMessageIds": [
+        "msg_mpt7ji2p_f25f0050",
+        "msg_mpt7jtv3_32533dc8"
+      ]
+    }
+  },
+  {
+    "id": "event_mpt9lw1q_66c4a191",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-05-31T04:13:45.470Z",
+    "payload": {
+      "runId": "run_mpt9jkmq_e2f0dd",
+      "messageId": "msg_mpt9jx5p_9be71256",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpt7ji2p_f25f0050",
+      "replaceFromMessageId": "msg_mpt7ji2p_f25f0050",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 3,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 2,
+      "correctionCount": 1
+    }
+  },
+  {
+    "id": "event_mptiyeio_4f49d2e2",
+    "type": "novel_updated",
+    "createdAt": "2026-05-31T08:35:25.824Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mptiyy6h_865d745c",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T08:35:51.305Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mpt9jm6b_599115e1",
+      "removedMessageIds": [
+        "msg_mpt9jm6b_599115e1",
+        "msg_mpt9jx5p_9be71256"
+      ]
+    }
+  },
+  {
+    "id": "event_mptj3brb_3c763015",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T08:39:15.527Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mptiyyhq_b56792d6",
+      "removedMessageIds": [
+        "msg_mptiyyhq_b56792d6"
+      ]
+    }
+  },
+  {
+    "id": "event_mptju9v4_915d03cb",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T09:00:12.784Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mptj3c2h_ccf4828c",
+      "removedMessageIds": [
+        "msg_mptj3c2h_ccf4828c"
+      ]
+    }
+  },
+  {
+    "id": "event_mptpybnb_8b489355",
+    "type": "novel_updated",
+    "createdAt": "2026-05-31T11:51:19.415Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mptpyne3_6fea8e95",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T11:51:34.635Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mptjua8a_9e154b20",
+      "removedMessageIds": [
+        "msg_mptjua8a_9e154b20"
+      ]
+    }
+  },
+  {
+    "id": "event_mptrcvch_e2f39f76",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T12:30:37.745Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mptpynod_d662a44e",
+      "removedMessageIds": [
+        "msg_mptpynod_d662a44e"
+      ]
+    }
+  },
+  {
+    "id": "event_mptrtjrt_ca7b44d8",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-31T12:43:35.897Z",
+    "payload": {
+      "runId": "run_mptrctro_db17ea",
+      "messageId": "msg_mptrd4h6_cbb1810e",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mptpynod_d662a44e",
+      "replaceFromMessageId": "msg_mptpynod_d662a44e",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 4,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mpttrs32_d3f8901b",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T13:38:12.590Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mptrcvo8_c8ef2350",
+      "removedMessageIds": [
+        "msg_mptrcvo8_c8ef2350",
+        "msg_mptrd4h6_cbb1810e"
+      ]
+    }
+  },
+  {
+    "id": "event_mpttvt2z_f95eab77",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-05-31T13:41:20.507Z",
+    "payload": {
+      "runId": "run_mpttrqb6_f93628",
+      "messageId": "msg_mptts4ka_cdf94641",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mptrcvo8_c8ef2350",
+      "replaceFromMessageId": "msg_mptrcvo8_c8ef2350",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 3,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mptuw59a_5137ac33",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T14:09:35.902Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mpttrsfn_2327b8de",
+      "removedMessageIds": [
+        "msg_mpttrsfn_2327b8de",
+        "msg_mptts4ka_cdf94641"
+      ]
+    }
+  },
+  {
+    "id": "event_mptuyitd_eae7b831",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-05-31T14:11:26.785Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mptuw5lr_945e56ec",
+      "removedMessageIds": [
+        "msg_mptuw5lr_945e56ec"
+      ]
+    }
+  },
+  {
+    "id": "event_mq2e102b_2fa7cf98",
+    "type": "novel_updated",
+    "createdAt": "2026-06-06T13:27:24.563Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mq2e16m0_25ebec34",
+    "type": "novel_updated",
+    "createdAt": "2026-06-06T13:27:33.048Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mq2e1d1p_fbcac0ef",
+    "type": "novel_updated",
+    "createdAt": "2026-06-06T13:27:41.390Z",
+    "payload": {
+      "title": "微不足道的妄想"
+    }
+  },
+  {
+    "id": "event_mq2e1jxb_9972d4fb",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-06T13:27:50.303Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mptuyj63_b66ecfcc",
+      "removedMessageIds": [
+        "msg_mptuyj63_b66ecfcc"
+      ]
+    }
+  },
+  {
+    "id": "event_mq2ej6k4_037262b2",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-06-06T13:41:32.788Z",
+    "payload": {
+      "runId": "run_mq2e1d0k_97c68a",
+      "messageId": "msg_mq2e1vfl_a780790c",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mptuyj63_b66ecfcc",
+      "replaceFromMessageId": "msg_mptuyj63_b66ecfcc",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 3,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq2irdta_a19681bf",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-06T15:39:53.902Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mpnaqzwl_d8cd6769",
+      "removedMessageIds": [
+        "msg_mpnaqzwl_d8cd6769",
+        "msg_mpnar31s_a8f326a7",
+        "msg_mpnbn093_707da266",
+        "msg_mpnbn3wu_cbf9d1a2",
+        "msg_mpp5h1sh_8df5fdf4",
+        "msg_mpp5h6tg_47e4e2a9",
+        "msg_mq2e1k9t_e00918ed",
+        "msg_mq2e1vfl_a780790c"
+      ]
+    }
+  },
+  {
+    "id": "event_mq3hpa3b_9d9f2bb8",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-07T07:58:02.327Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq2ire68_e5b706fd",
+      "removedMessageIds": [
+        "msg_mq2ire68_e5b706fd"
+      ]
+    }
+  },
+  {
+    "id": "event_mq3huefd_f258c7dd",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-06-07T08:02:01.225Z",
+    "payload": {
+      "runId": "run_mq3hp8cz_0f8741",
+      "messageId": "msg_mq3hpjsk_1c3a2d35",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq2ire68_e5b706fd",
+      "replaceFromMessageId": "msg_mq2ire68_e5b706fd",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq3iig1x_20b62629",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-07T08:20:43.077Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq3hpafx_f743ba73",
+      "removedMessageIds": [
+        "msg_mq3hpafx_f743ba73",
+        "msg_mq3hpjsk_1c3a2d35"
+      ]
+    }
+  },
+  {
+    "id": "event_mq3ind8d_82192806",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-06-07T08:24:32.701Z",
+    "payload": {
+      "runId": "run_mq3iie6y_8a61b8",
+      "messageId": "msg_mq3iiq9u_414f22ae",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq3hpafx_f743ba73",
+      "replaceFromMessageId": "msg_mq3hpafx_f743ba73",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 5,
+      "appliedSkillOps": 0,
+      "agentSteps": 4,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq3jutzz_060d93e2",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-07T08:58:20.640Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq3iigf8_e29b5e8c",
+      "removedMessageIds": [
+        "msg_mq3iigf8_e29b5e8c",
+        "msg_mq3iiq9u_414f22ae"
+      ]
+    }
+  },
+  {
+    "id": "event_mq3jyrih_4d6aad0e",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-06-07T09:01:24.041Z",
+    "payload": {
+      "runId": "run_mq3jury8_54305c",
+      "messageId": "msg_mq3jv4wn_f81bc3c6",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq3iigf8_e29b5e8c",
+      "replaceFromMessageId": "msg_mq3iigf8_e29b5e8c",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 4,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq3lqbje_1a62ac3a",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-07T09:50:49.322Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq3juuek_fabe5efd",
+      "removedMessageIds": [
+        "msg_mq3juuek_fabe5efd",
+        "msg_mq3jv4wn_f81bc3c6"
+      ]
+    }
+  },
+  {
+    "id": "event_mq3luukm_953db0a5",
+    "type": "planning_chat_awaiting_user",
+    "createdAt": "2026-06-07T09:54:20.614Z",
+    "payload": {
+      "runId": "run_mq3lq861_352af5",
+      "messageId": "msg_mq3lqpfa_297972a7",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq3juuek_fabe5efd",
+      "replaceFromMessageId": "msg_mq3juuek_fabe5efd",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 3,
+      "appliedSkillOps": 0,
+      "agentSteps": 4,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq3si9dp_c2c76e85",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-07T13:00:30.589Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq3lqbxz_4ea8ca40",
+      "removedMessageIds": [
+        "msg_mq3lqbxz_4ea8ca40",
+        "msg_mq3lqpfa_297972a7"
+      ]
+    }
+  },
+  {
+    "id": "event_mq3so0uh_c3455164",
+    "type": "planning_chat_paused",
+    "createdAt": "2026-06-07T13:04:59.465Z",
+    "payload": {
+      "runId": "run_mq3si78x_bbd5c2",
+      "messageId": "msg_mq3sikmi_03502c78",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq3lqbxz_4ea8ca40",
+      "replaceFromMessageId": "msg_mq3lqbxz_4ea8ca40",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 3,
+      "appliedSkillOps": 0,
+      "agentSteps": 4,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq5d7d9y_02096c65",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-08T15:27:40.534Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq3si9su_6eaa65b2",
+      "removedMessageIds": [
+        "msg_mq3si9su_6eaa65b2",
+        "msg_mq3sikmi_03502c78"
+      ]
+    }
+  },
+  {
+    "id": "event_mq5df7zx_136d47ce",
+    "type": "planning_chat_cancelled",
+    "createdAt": "2026-06-08T15:33:46.941Z",
+    "payload": {
+      "runId": "run_mq5d7bgq_556796"
+    }
+  },
+  {
+    "id": "event_mq5ebt8c_3e3ddd10",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-08T15:59:07.453Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq5d7dq3_ea63d0c4",
+      "removedMessageIds": [
+        "msg_mq5d7dq3_ea63d0c4"
+      ]
+    }
+  },
+  {
+    "id": "event_mq5eomte_d04478cd",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-08T16:09:05.666Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq5ebts6_fb3e38c3",
+      "removedMessageIds": [
+        "msg_mq5ebts6_fb3e38c3"
+      ]
+    }
+  },
+  {
+    "id": "event_mq6mwtdc_3e8e9197",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-09T12:47:10.512Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq5eonbp_63ff4086",
+      "removedMessageIds": [
+        "msg_mq5eonbp_63ff4086"
+      ]
+    }
+  },
+  {
+    "id": "event_mq6mz9uy_d9617449",
+    "type": "planning_chat_paused",
+    "createdAt": "2026-06-09T12:49:05.194Z",
+    "payload": {
+      "runId": "run_mq6mwt84_0eceaa",
+      "messageId": "msg_mq6mwv4a_7d5ac880",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq5eonbp_63ff4086",
+      "replaceFromMessageId": "msg_mq5eonbp_63ff4086",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq6nsuiw_e2bf0e1c",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-09T13:12:05.000Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq6mwtdj_bdd74e1c",
+      "removedMessageIds": [
+        "msg_mq6mwtdj_bdd74e1c",
+        "msg_mq6mwv4a_7d5ac880"
+      ]
+    }
+  },
+  {
+    "id": "event_mq6ny928_3a362880",
+    "type": "planning_chat_paused",
+    "createdAt": "2026-06-09T13:16:17.120Z",
+    "payload": {
+      "runId": "run_mq6nsue2_3f80ec",
+      "messageId": "msg_mq6nsw4l_11978ac3",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq6mwtdj_bdd74e1c",
+      "replaceFromMessageId": "msg_mq6mwtdj_bdd74e1c",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 6,
+      "appliedSkillOps": 0,
+      "agentSteps": 5,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq6q8wgi_e965e9ca",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-09T14:20:33.234Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq6qakdb_b121ce99",
+    "type": "planning_chat_awaiting_user",
+    "createdAt": "2026-06-09T14:21:50.879Z",
+    "payload": {
+      "runId": "run_mq6q8w9v_d7aae462",
+      "messageId": "msg_mq6q8zkn_a47eee14",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq6r15kf_24353a77",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-09T14:42:31.407Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq6r2ysb_d23a722a",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-09T14:43:55.931Z",
+    "payload": {
+      "runId": "run_mq6r15fw_3dd35910",
+      "messageId": "msg_mq6r18nm_96f43261",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq6r8ft1_e1b5efd9",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-09T14:48:11.269Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq6r9hok_fd92a22d",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-09T14:49:00.356Z",
+    "payload": {
+      "runId": "run_mq6r8fo2_cf33525f",
+      "messageId": "msg_mq6r8j0u_547bc905",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq6rfed4_6ea6558c",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-09T14:53:35.992Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq6rgipn_bb9d4d0d",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-09T14:54:28.283Z",
+    "payload": {
+      "runId": "run_mq6rfe7z_d84673a1",
+      "messageId": "msg_mq6rfgm8_6bad44cf",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq6s4t2z_9039e63f",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-09T15:13:21.467Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq6s63ko_08b64870",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-09T15:14:21.720Z",
+    "payload": {
+      "runId": "run_mq6s4sy7_8e766324",
+      "messageId": "msg_mq6s4w9q_56e0fa6e",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq7dt63v_c0d2231f",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-10T01:20:10.027Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq7dtpgg_d37b468e",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-10T01:20:35.104Z",
+    "payload": {
+      "runId": "run_mq7dt5wn_c9dd58",
+      "messageId": "msg_mq7dt9i0_7ac776bb",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq7evqv1_3fca66e8",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-10T01:50:09.853Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq7ewu3k_28ae488e",
+    "type": "planning_chat_blocked",
+    "createdAt": "2026-06-10T01:51:00.704Z",
+    "payload": {
+      "runId": "run_mq7evqow_a4584c",
+      "messageId": "msg_mq7evtwj_51f96a73",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 0,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq7fe8nm_b9b0f1ef",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-10T02:04:32.722Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq7fesag_efbfa30e",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-10T02:04:58.168Z",
+    "payload": {
+      "runId": "run_mq7fe8g7_bfe48c",
+      "messageId": "msg_mq7febr9_9285e696",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 0,
+      "appliedSkillOps": 0,
+      "agentSteps": 1,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq7ifzql_9533e662",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-10T03:29:53.325Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq7igisf_b31202fd",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-10T03:30:18.016Z",
+    "payload": {
+      "runId": "run_mq7ifzle_011d14",
+      "messageId": "msg_mq7ig2qu_d473dda6",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 0,
+      "appliedSkillOps": 0,
+      "agentSteps": 1,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq7in3xv_f9db2f23",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-10T03:35:25.363Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq7innmz_009fcf4e",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-10T03:35:50.891Z",
+    "payload": {
+      "runId": "run_mq7in3sc_df4256",
+      "messageId": "msg_mq7in689_581551cd",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 0,
+      "appliedSkillOps": 0,
+      "agentSteps": 1,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq7lxmo7_b89dca23",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-10T05:07:35.047Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq7ly2ly_0b667a0f",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-10T05:07:55.702Z",
+    "payload": {
+      "runId": "run_manual_inline_1781068053669",
+      "messageId": "msg_mq7lxowr_24877ccb",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 0,
+      "appliedSkillOps": 0,
+      "agentSteps": 1,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq7p01lo_e0231795",
+    "type": "planning_thread_forked",
+    "createdAt": "2026-06-10T06:33:26.557Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "parentBranchId": "branch_mpmv48k0_80be8d",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "forkFromRunId": "run_mpmv49js_2147ba"
+    }
+  },
+  {
+    "id": "event_mq7p1oyv_d1c0ef46",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-10T06:34:43.495Z",
+    "payload": {
+      "runId": "run_mq7p01dx_47c61eeb",
+      "messageId": "msg_mq7p046p_018ec208",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mpmv49yl_712c2f54",
+      "replaceFromMessageId": "msg_mpmv49yl_712c2f54",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq86cmd5_9f7737d8",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-10T14:39:06.809Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq6nsuj7_03598ab2",
+      "removedMessageIds": [
+        "msg_mq6nsuj7_03598ab2",
+        "msg_mq6nsw4l_11978ac3",
+        "msg_mq6q8wgu_a9925ab2",
+        "msg_mq6q8zkn_a47eee14",
+        "msg_mq6r15kq_bc9e3909",
+        "msg_mq6r18nm_96f43261",
+        "msg_mq6r8ftj_c3420654",
+        "msg_mq6r8j0u_547bc905",
+        "msg_mq6rfede_1233537c",
+        "msg_mq6rfgm8_6bad44cf",
+        "msg_mq6s4t3c_0e97f565",
+        "msg_mq6s4w9q_56e0fa6e",
+        "msg_mq7dt649_2eb6f780",
+        "msg_mq7dt9i0_7ac776bb",
+        "msg_mq7evqve_12bdb5d8",
+        "msg_mq7evtwj_51f96a73",
+        "msg_mq7fe8oe_417cf1d3",
+        "msg_mq7febr9_9285e696",
+        "msg_mq7ifzqy_e2077f45",
+        "msg_mq7ig2qu_d473dda6",
+        "msg_mq7in3y6_f868bb93",
+        "msg_mq7in689_581551cd",
+        "msg_mq7lxmoi_f8c5e0e2",
+        "msg_mq7lxowr_24877ccb",
+        "msg_mq7p01m7_946b1817",
+        "msg_mq7p046p_018ec208"
+      ],
+      "removedRunIds": [
+        "run_mq6nsue2_3f80ec",
+        "run_mq6q8w9v_d7aae462",
+        "run_mq6r15fw_3dd35910",
+        "run_mq6r8fo2_cf33525f",
+        "run_mq6rfe7z_d84673a1",
+        "run_mq6s4sy7_8e766324",
+        "run_mq7dt5wn_c9dd58",
+        "run_mq7evqow_a4584c",
+        "run_mq7fe8g7_bfe48c",
+        "run_mq7ifzle_011d14",
+        "run_mq7in3sc_df4256",
+        "run_manual_inline_1781068053669",
+        "run_mq7p01dx_47c61eeb"
+      ]
+    }
+  },
+  {
+    "id": "event_mq86f1fe_86e560b7",
+    "type": "planning_chat_awaiting_user",
+    "createdAt": "2026-06-10T14:40:59.642Z",
+    "payload": {
+      "runId": "run_mq86cm7n_8f06ad",
+      "messageId": "msg_mq86cpc6_7dc4cae6",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq6nsuj7_03598ab2",
+      "replaceFromMessageId": "msg_mq6nsuj7_03598ab2",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 3,
+      "appliedSkillOps": 0,
+      "agentSteps": 3,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  },
+  {
+    "id": "event_mq8958r9_3ad3df13",
+    "type": "planning_thread_edited_in_place",
+    "createdAt": "2026-06-10T15:57:21.429Z",
+    "payload": {
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "replaceFromMessageId": "msg_mq86cmdf_73f6c655",
+      "removedMessageIds": [
+        "msg_mq86cmdf_73f6c655",
+        "msg_mq86cpc6_7dc4cae6"
+      ],
+      "removedRunIds": [
+        "run_mq86cm7n_8f06ad"
+      ]
+    }
+  },
+  {
+    "id": "event_mq8969dp_96995851",
+    "type": "planning_chat_completed",
+    "createdAt": "2026-06-10T15:58:08.893Z",
+    "payload": {
+      "runId": "run_mq8958g9_7589b1",
+      "messageId": "msg_mq895a4h_0b865871",
+      "branchId": "branch_mpnaqxyt_ae6205",
+      "forkFromMessageId": "msg_mq86cmdf_73f6c655",
+      "replaceFromMessageId": "msg_mq86cmdf_73f6c655",
+      "forkMode": "edit_from_message",
+      "hasArchivePatch": false,
+      "skillOps": 2,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  }
+]

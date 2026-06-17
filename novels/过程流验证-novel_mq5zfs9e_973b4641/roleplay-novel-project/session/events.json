@@ -1,0 +1,29 @@
+[
+  {
+    "id": "event_mq5zfsam_0974f57b",
+    "type": "novel_updated",
+    "createdAt": "2026-06-09T01:50:04.798Z",
+    "payload": {
+      "title": "过程流验证"
+    }
+  },
+  {
+    "id": "event_mq5zfum7_eb7b8a80",
+    "type": "planning_chat_awaiting_user",
+    "createdAt": "2026-06-09T01:50:07.807Z",
+    "payload": {
+      "runId": "run_check_1780969804826",
+      "messageId": "msg_mq5zfsdz_cfcf467a",
+      "branchId": "main",
+      "forkFromMessageId": "",
+      "replaceFromMessageId": "",
+      "forkMode": "",
+      "hasArchivePatch": false,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  }
+]

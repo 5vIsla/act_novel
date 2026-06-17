@@ -1,0 +1,10 @@
+{
+  "entries": [],
+  "settings": {
+    "scanDepth": 4,
+    "maxTriggeredEntries": 8,
+    "maxCharsPerEntry": 900,
+    "recursiveScanning": false
+  },
+  "updatedAt": "2026-05-22T17:06:02.737Z"
+}

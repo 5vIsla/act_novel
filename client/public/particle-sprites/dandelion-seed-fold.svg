@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 72">
+  <defs>
+    <linearGradient id="stemFold" x1="26" y1="23" x2="30" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffef1" stop-opacity=".92"/>
+      <stop offset=".62" stop-color="#d9c78f" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#9d8153" stop-opacity=".84"/>
+    </linearGradient>
+    <radialGradient id="tuftFold" cx="27" cy="18" r="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".92"/>
+      <stop offset=".58" stop-color="#edf8ff" stop-opacity=".50"/>
+      <stop offset="1" stop-color="#d7eef8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="27" cy="19" rx="14" ry="22" fill="url(#tuftFold)"/>
+  <g fill="none" stroke="#f7fbff" stroke-linecap="round">
+    <path stroke-opacity=".88" stroke-width="1.15" d="M27 35 27 4"/>
+    <path stroke-opacity=".72" stroke-width=".95" d="M27 35 18 8M27 35 36 8"/>
+    <path stroke-opacity=".66" stroke-width=".85" d="M27 35 14 22M27 35 40 22"/>
+  </g>
+  <path fill="none" stroke="url(#stemFold)" stroke-linecap="round" stroke-width="1.8" d="M27 34c.9 8.5 1.2 17.5 1 27.5"/>
+  <path fill="#b59054" fill-opacity=".9" d="M27.9 60.2c3 1.6 4.5 3.7 4.4 6.2-.1 2.2-1.7 3.7-4.2 3.7-2.8-.1-4.5-1.9-4.5-4.3 0-2.3 1.4-4.1 4.3-5.6z"/>
+</svg>

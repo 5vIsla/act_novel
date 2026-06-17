@@ -1,0 +1,14 @@
+{
+  "id": "openai_chat_completions",
+  "aliases": ["chat_completions", "chat/completions", "openai_chat_completions"],
+  "label": "OpenAI Chat Completions 兼容",
+  "endpointKind": "chat_completions",
+  "endpointPath": "/chat/completions",
+  "capabilities": {
+    "tools": true,
+    "stream": true,
+    "jsonSchema": false,
+    "maxContextTokens": 0,
+    "errorCodeMapping": {}
+  }
+}

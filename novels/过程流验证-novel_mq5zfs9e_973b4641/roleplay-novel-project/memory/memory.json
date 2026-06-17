@@ -1,0 +1,405 @@
+{
+  "items": [],
+  "lastInjection": {
+    "task": "planner",
+    "strategy": "project_rag",
+    "characterId": "",
+    "query": "预算链路测试：请直接完成，不要写入资料。",
+    "lorebookScan": {
+      "depth": 4,
+      "sourceCount": 2,
+      "text": "当前查询\n预算链路测试：请直接完成，不要写入资料。\n\n最近策划对话：user\n预算链路测试：请直接完成，不要写入资料。"
+    },
+    "fixedContext": [
+      {
+        "title": "策划项目档案",
+        "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+        "source": {
+          "type": "archive",
+          "id": "planner"
+        }
+      }
+    ],
+    "triggeredLore": [],
+    "structuredMemory": [],
+    "retrievedEvidence": [
+      {
+        "id": "planning_msg_mq5zfsbh_2b254afb",
+        "title": "策划对话：user",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mq5zfsbh_2b254afb"
+        },
+        "score": 1.1295,
+        "bm25Score": 1,
+        "vectorScore": 0,
+        "rerankScore": 1.96,
+        "retrievalMode": "bm25",
+        "text": "role=user\nrunId=run_check_1780969804826\nbranch=main\n预算链路测试：请直接完成，不要写入资料。"
+      }
+    ],
+    "recentContext": [
+      {
+        "title": "策划对话：user",
+        "text": "预算链路测试：请直接完成，不要写入资料。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mq5zfsbh_2b254afb"
+        }
+      }
+    ],
+    "runtimeDirective": null,
+    "promptSections": [
+      {
+        "layer": "fixed_context",
+        "title": "策划项目档案",
+        "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+        "source": {
+          "type": "archive",
+          "id": "planner"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划对话：user",
+        "text": "role=user\nrunId=run_check_1780969804826\nbranch=main\n预算链路测试：请直接完成，不要写入资料。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mq5zfsbh_2b254afb"
+        }
+      },
+      {
+        "layer": "recent_context",
+        "title": "策划对话：user",
+        "text": "预算链路测试：请直接完成，不要写入资料。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mq5zfsbh_2b254afb"
+        }
+      }
+    ],
+    "layers": {
+      "fixedContext": [
+        {
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        }
+      ],
+      "triggeredLore": [],
+      "structuredMemory": [],
+      "retrievedEvidence": [
+        {
+          "id": "planning_msg_mq5zfsbh_2b254afb",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsbh_2b254afb"
+          },
+          "score": 1.1295,
+          "bm25Score": 1,
+          "vectorScore": 0,
+          "rerankScore": 1.96,
+          "retrievalMode": "bm25",
+          "text": "role=user\nrunId=run_check_1780969804826\nbranch=main\n预算链路测试：请直接完成，不要写入资料。"
+        }
+      ],
+      "recentContext": [
+        {
+          "title": "策划对话：user",
+          "text": "预算链路测试：请直接完成，不要写入资料。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsbh_2b254afb"
+          }
+        }
+      ],
+      "runtimeDirective": null
+    },
+    "warnings": [],
+    "budget": {
+      "structuredMemory": 12,
+      "retrievedEvidence": 8,
+      "evidenceChars": 900,
+      "triggeredLore": 8,
+      "loreChars": 900,
+      "recursiveScanning": false,
+      "memoryLayerStats": {},
+      "preferredMemoryLayers": [
+        "stable_fact",
+        "tentative_judgment",
+        "author_memory",
+        "run_audit"
+      ]
+    },
+    "builtAt": "2026-06-09T01:50:04.918Z",
+    "afterWrite": {
+      "task": "planner",
+      "strategy": "project_rag",
+      "characterId": "",
+      "query": "预算链路测试：请直接完成，不要写入资料。",
+      "lorebookScan": {
+        "depth": 4,
+        "sourceCount": 3,
+        "text": "当前查询\n预算链路测试：请直接完成，不要写入资料。\n\n最近策划对话：user\n预算链路测试：请直接完成，不要写入资料。\n\n最近策划对话：assistant\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：预算链路测试：请直接完成，不要写入资料。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。"
+      },
+      "fixedContext": [
+        {
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        }
+      ],
+      "triggeredLore": [],
+      "structuredMemory": [],
+      "retrievedEvidence": [
+        {
+          "id": "planning_msg_mq5zfsdz_cfcf467a_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mq5zfsdz_cfcf467a"
+          },
+          "score": 1.629,
+          "bm25Score": 1,
+          "vectorScore": 0,
+          "rerankScore": 3.07,
+          "retrievalMode": "bm25",
+          "text": "检索工具：search；query=预算链路测试：请直接完成，不要写入资料。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=预算链路测试：请直接完成，不要写入资料。"
+        },
+        {
+          "id": "planning_msg_mq5zfsdz_cfcf467a",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsdz_cfcf467a"
+          },
+          "score": 1.1143,
+          "bm25Score": 0.4578,
+          "vectorScore": 0,
+          "rerankScore": 2.2245,
+          "retrievalMode": "bm25",
+          "text": "role=assistant\nrunId=run_check_1780969804826\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：预算链路测试：请直接完成，不要写入资料。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-06-09T01:50:07.804Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-06-09T01:50:07.805Z\"}"
+        },
+        {
+          "id": "planning_msg_mq5zfsbh_2b254afb",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsbh_2b254afb"
+          },
+          "score": 1.0919,
+          "bm25Score": 0.8955,
+          "vectorScore": 0,
+          "rerankScore": 1.9339,
+          "retrievalMode": "bm25",
+          "text": "role=user\nrunId=run_check_1780969804826\nbranch=main\n预算链路测试：请直接完成，不要写入资料。"
+        }
+      ],
+      "recentContext": [
+        {
+          "title": "策划对话：user",
+          "text": "预算链路测试：请直接完成，不要写入资料。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsbh_2b254afb"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：预算链路测试：请直接完成，不要写入资料。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsdz_cfcf467a"
+          }
+        }
+      ],
+      "runtimeDirective": null,
+      "promptSections": [
+        {
+          "layer": "fixed_context",
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划 Skill 执行结果",
+          "text": "检索工具：search；query=预算链路测试：请直接完成，不要写入资料。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=预算链路测试：请直接完成，不要写入资料。",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mq5zfsdz_cfcf467a"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：assistant",
+          "text": "role=assistant\nrunId=run_check_1780969804826\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：预算链路测试：请直接完成，不要写入资料。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-06-09T01:50:07.804Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-06-09T01:50:07.805Z\"}",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsdz_cfcf467a"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：user",
+          "text": "role=user\nrunId=run_check_1780969804826\nbranch=main\n预算链路测试：请直接完成，不要写入资料。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsbh_2b254afb"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：user",
+          "text": "预算链路测试：请直接完成，不要写入资料。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsbh_2b254afb"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：assistant",
+          "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：预算链路测试：请直接完成，不要写入资料。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mq5zfsdz_cfcf467a"
+          }
+        }
+      ],
+      "layers": {
+        "fixedContext": [
+          {
+            "title": "策划项目档案",
+            "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+            "source": {
+              "type": "archive",
+              "id": "planner"
+            }
+          }
+        ],
+        "triggeredLore": [],
+        "structuredMemory": [],
+        "retrievedEvidence": [
+          {
+            "id": "planning_msg_mq5zfsdz_cfcf467a_skill_ops",
+            "title": "策划 Skill 执行结果",
+            "source": {
+              "type": "planning_skill_ops",
+              "id": "msg_mq5zfsdz_cfcf467a"
+            },
+            "score": 1.629,
+            "bm25Score": 1,
+            "vectorScore": 0,
+            "rerankScore": 3.07,
+            "retrievalMode": "bm25",
+            "text": "检索工具：search；query=预算链路测试：请直接完成，不要写入资料。；scope=active_project；count=0\n证据读取：project_rag；tool=search；query=预算链路测试：请直接完成，不要写入资料。"
+          },
+          {
+            "id": "planning_msg_mq5zfsdz_cfcf467a",
+            "title": "策划对话：assistant",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mq5zfsdz_cfcf467a"
+            },
+            "score": 1.1143,
+            "bm25Score": 0.4578,
+            "vectorScore": 0,
+            "rerankScore": 2.2245,
+            "retrievalMode": "bm25",
+            "text": "role=assistant\nrunId=run_check_1780969804826\nbranch=main\n我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：预算链路测试：请直接完成，不要写入资料。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。\n任务计划：[{\"id\":\"understand\",\"title\":\"理解本轮输入并判断是否需要工具\",\"status\":\"completed\",\"evidence\":[]},{\"id\":\"act\",\"title\":\"直接回复并说明不写入原因\",\"status\":\"completed\",\"evidence\":[]}]\n完成判定：{\"status\":\"passed\",\"summary\":\"本轮普通回复已完成。\",\"checkedCriteria\":[{\"criterion\":\"已回复用户并说明写入边界\",\"status\":\"unchecked\"}],\"openIssues\":[],\"unresolvedNodeIds\":[],\"recommendedAction\":\"final\",\"reviewer\":null,\"createdAt\":\"2026-06-09T01:50:07.804Z\"}\n自检：{\"status\":\"passed\",\"summary\":\"自检未发现明显一致性或执行闭环问题。\",\"issues\":[],\"recommendedAction\":\"continue\",\"createdAt\":\"2026-06-09T01:50:07.805Z\"}"
+          },
+          {
+            "id": "planning_msg_mq5zfsbh_2b254afb",
+            "title": "策划对话：user",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mq5zfsbh_2b254afb"
+            },
+            "score": 1.0919,
+            "bm25Score": 0.8955,
+            "vectorScore": 0,
+            "rerankScore": 1.9339,
+            "retrievalMode": "bm25",
+            "text": "role=user\nrunId=run_check_1780969804826\nbranch=main\n预算链路测试：请直接完成，不要写入资料。"
+          }
+        ],
+        "recentContext": [
+          {
+            "title": "策划对话：user",
+            "text": "预算链路测试：请直接完成，不要写入资料。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mq5zfsbh_2b254afb"
+            }
+          },
+          {
+            "title": "策划对话：assistant",
+            "text": "我会先把这条输入当作策划素材处理，而不是一次性表单。当前可以沉淀出的方向是：预算链路测试：请直接完成，不要写入资料。。下一步最好确认主角是谁、异常发生在哪里，以及第一章要把读者带到哪个压力点。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mq5zfsdz_cfcf467a"
+            }
+          }
+        ],
+        "runtimeDirective": null
+      },
+      "warnings": [],
+      "budget": {
+        "structuredMemory": 12,
+        "retrievedEvidence": 8,
+        "evidenceChars": 900,
+        "triggeredLore": 8,
+        "loreChars": 900,
+        "recursiveScanning": false,
+        "memoryLayerStats": {},
+        "preferredMemoryLayers": [
+          "stable_fact",
+          "tentative_judgment",
+          "author_memory",
+          "run_audit"
+        ]
+      },
+      "builtAt": "2026-06-09T01:50:07.807Z"
+    }
+  },
+  "settings": {
+    "enabled": true,
+    "maxStructuredItems": 12,
+    "maxRetrievedItems": 8,
+    "maxEvidenceChars": 900,
+    "retrievalMode": "hybrid",
+    "vectorEnabled": false,
+    "embeddingProviderId": "",
+    "embeddingModel": "",
+    "rerankEnabled": true,
+    "rerankProviderId": "",
+    "rerankModel": "",
+    "maxVectorCandidates": 40,
+    "vectorChunkChars": 900,
+    "projectSearchFastPath": false
+  },
+  "vectorIndex": {
+    "documents": [],
+    "sourceHash": "",
+    "embeddingProviderId": "",
+    "embeddingModel": "",
+    "embeddingBackend": "local_hash",
+    "dimensions": 256,
+    "documentCount": 0,
+    "chunkCount": 0,
+    "stale": true,
+    "updatedAt": ""
+  },
+  "updatedAt": "2026-06-09T01:50:04.754Z"
+}

@@ -1,0 +1,12 @@
+{
+  "entries": [],
+  "settings": {
+    "scanDepth": 4,
+    "maxTriggeredEntries": 8,
+    "maxCharsPerEntry": 900,
+    "recursiveScanning": false,
+    "triggerLogLimit": 80
+  },
+  "triggerLogs": [],
+  "updatedAt": "2026-06-09T01:54:08.164Z"
+}

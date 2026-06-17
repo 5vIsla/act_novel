@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 64">
+  <defs>
+    <linearGradient id="rain" x1="8" y1="0" x2="8" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dff7ff" stop-opacity="0"/>
+      <stop offset=".28" stop-color="#dff7ff" stop-opacity=".28"/>
+      <stop offset=".74" stop-color="#9dd9ff" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#6eb6e7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M8 3 C7.3 17.5 7.3 34.5 8 61" stroke="url(#rain)" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+</svg>

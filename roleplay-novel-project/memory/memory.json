@@ -1,0 +1,646 @@
+{
+  "items": [],
+  "lastInjection": {
+    "task": "planner",
+    "strategy": "project_rag",
+    "characterId": "",
+    "query": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。",
+    "lorebookScan": {
+      "depth": 4,
+      "sourceCount": 3,
+      "text": "当前查询\n测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。\n\n最近策划对话：user\n从本地文件里找 user_ideas，并读取必要片段。\n\n最近策划对话：assistant\n我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。"
+    },
+    "fixedContext": [
+      {
+        "title": "策划项目档案",
+        "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+        "source": {
+          "type": "archive",
+          "id": "planner"
+        }
+      }
+    ],
+    "triggeredLore": [],
+    "structured": [],
+    "retrieved": [
+      {
+        "id": "planning_msg_mph68el1_b4bf5047_skill_ops",
+        "title": "策划 Skill 执行结果",
+        "source": {
+          "type": "planning_skill_ops",
+          "id": "msg_mph68el1_b4bf5047"
+        },
+        "score": 1.197,
+        "bm25Score": 1,
+        "vectorScore": 0,
+        "rerankScore": 2.11,
+        "retrievalMode": "bm25",
+        "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"local_search_mph68it7_14797bf5\",\n      \"type\": \"searchLocalFiles\",\n      \"query\": \"user_ideas\",\n      \"scope\": \"local_files\",\n      \"count\": 5,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"hybrid\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [],\n      \"warnings\": [],\n      \"results\": [\n        {\n          \"id\": \"local_file:default_agent_folder:novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"title\": \"novels/微不足道的妄想-n..."
+      },
+      {
+        "id": "planning_msg_mph68el1_d7b3e0c2",
+        "title": "策划对话：user",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_d7b3e0c2"
+        },
+        "score": 0.2673,
+        "bm25Score": 0.1051,
+        "vectorScore": 0,
+        "rerankScore": 0.5363,
+        "retrievalMode": "bm25",
+        "text": "从本地文件里找 user_ideas，并读取必要片段。"
+      },
+      {
+        "id": "planning_msg_mph68el1_b4bf5047",
+        "title": "策划对话：assistant",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_b4bf5047"
+        },
+        "score": 0.2653,
+        "bm25Score": 0.0994,
+        "vectorScore": 0,
+        "rerankScore": 0.5348,
+        "retrievalMode": "bm25",
+        "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。"
+      }
+    ],
+    "recentContext": [
+      {
+        "title": "策划对话：user",
+        "text": "从本地文件里找 user_ideas，并读取必要片段。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_d7b3e0c2"
+        }
+      },
+      {
+        "title": "策划对话：assistant",
+        "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_b4bf5047"
+        }
+      }
+    ],
+    "promptSections": [
+      {
+        "layer": "fixed_context",
+        "title": "策划项目档案",
+        "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+        "source": {
+          "type": "archive",
+          "id": "planner"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划 Skill 执行结果",
+        "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"local_search_mph68it7_14797bf5\",\n      \"type\": \"searchLocalFiles\",\n      \"query\": \"user_ideas\",\n      \"scope\": \"local_files\",\n      \"count\": 5,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"hybrid\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [],\n      \"warnings\": [],\n      \"results\": [\n        {\n          \"id\": \"local_file:default_agent_folder:novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"title\": \"novels/微不足道的妄想-n...",
+        "source": {
+          "type": "planning_skill_ops",
+          "id": "msg_mph68el1_b4bf5047"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划对话：user",
+        "text": "从本地文件里找 user_ideas，并读取必要片段。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_d7b3e0c2"
+        }
+      },
+      {
+        "layer": "retrieved_evidence",
+        "title": "策划对话：assistant",
+        "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_b4bf5047"
+        }
+      },
+      {
+        "layer": "recent_context",
+        "title": "策划对话：user",
+        "text": "从本地文件里找 user_ideas，并读取必要片段。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_d7b3e0c2"
+        }
+      },
+      {
+        "layer": "recent_context",
+        "title": "策划对话：assistant",
+        "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+        "source": {
+          "type": "planning_chat",
+          "id": "msg_mph68el1_b4bf5047"
+        }
+      }
+    ],
+    "layers": {
+      "fixedContext": [
+        {
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        }
+      ],
+      "triggeredLore": [],
+      "structuredMemory": [],
+      "retrievedEvidence": [
+        {
+          "id": "planning_msg_mph68el1_b4bf5047_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mph68el1_b4bf5047"
+          },
+          "score": 1.197,
+          "bm25Score": 1,
+          "vectorScore": 0,
+          "rerankScore": 2.11,
+          "retrievalMode": "bm25",
+          "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"local_search_mph68it7_14797bf5\",\n      \"type\": \"searchLocalFiles\",\n      \"query\": \"user_ideas\",\n      \"scope\": \"local_files\",\n      \"count\": 5,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"hybrid\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [],\n      \"warnings\": [],\n      \"results\": [\n        {\n          \"id\": \"local_file:default_agent_folder:novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"title\": \"novels/微不足道的妄想-n..."
+        },
+        {
+          "id": "planning_msg_mph68el1_d7b3e0c2",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_d7b3e0c2"
+          },
+          "score": 0.2673,
+          "bm25Score": 0.1051,
+          "vectorScore": 0,
+          "rerankScore": 0.5363,
+          "retrievalMode": "bm25",
+          "text": "从本地文件里找 user_ideas，并读取必要片段。"
+        },
+        {
+          "id": "planning_msg_mph68el1_b4bf5047",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_b4bf5047"
+          },
+          "score": 0.2653,
+          "bm25Score": 0.0994,
+          "vectorScore": 0,
+          "rerankScore": 0.5348,
+          "retrievalMode": "bm25",
+          "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。"
+        }
+      ],
+      "recentContext": [
+        {
+          "title": "策划对话：user",
+          "text": "从本地文件里找 user_ideas，并读取必要片段。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_d7b3e0c2"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_b4bf5047"
+          }
+        }
+      ]
+    },
+    "warnings": [],
+    "budget": {
+      "structured": 12,
+      "retrieved": 8,
+      "evidenceChars": 900,
+      "triggeredLore": 8,
+      "loreChars": 900,
+      "recursiveScanning": false
+    },
+    "builtAt": "2026-05-22T17:06:19.341Z",
+    "afterWrite": {
+      "task": "planner",
+      "strategy": "project_rag",
+      "characterId": "",
+      "query": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。",
+      "lorebookScan": {
+        "depth": 4,
+        "sourceCount": 5,
+        "text": "当前查询\n测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。\n\n最近策划对话：user\n从本地文件里找 user_ideas，并读取必要片段。\n\n最近策划对话：assistant\n我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。\n\n最近策划对话：user\n测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。\n\n最近策划对话：assistant\n我已经读取上下文资产《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，后续可以基于这份旧工具证据继续任务。"
+      },
+      "fixedContext": [
+        {
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        }
+      ],
+      "triggeredLore": [],
+      "structured": [],
+      "retrieved": [
+        {
+          "id": "planning_msg_mph68qx9_98221c1e",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_98221c1e"
+          },
+          "score": 1.8135,
+          "bm25Score": 1,
+          "vectorScore": 0,
+          "rerankScore": 3.48,
+          "retrievalMode": "bm25",
+          "text": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。"
+        },
+        {
+          "id": "planning_msg_mph68el1_b4bf5047_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mph68el1_b4bf5047"
+          },
+          "score": 0.8512,
+          "bm25Score": 0.0394,
+          "vectorScore": 0,
+          "rerankScore": 1.8699,
+          "retrievalMode": "bm25",
+          "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"local_search_mph68it7_14797bf5\",\n      \"type\": \"searchLocalFiles\",\n      \"query\": \"user_ideas\",\n      \"scope\": \"local_files\",\n      \"count\": 5,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"hybrid\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [],\n      \"warnings\": [],\n      \"results\": [\n        {\n          \"id\": \"local_file:default_agent_folder:novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"title\": \"novels/微不足道的妄想-n..."
+        },
+        {
+          "id": "planning_msg_mph68qx9_e94d9b69_skill_ops",
+          "title": "策划 Skill 执行结果",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mph68qx9_e94d9b69"
+          },
+          "score": 0.8163,
+          "bm25Score": 0.1425,
+          "vectorScore": 0,
+          "rerankScore": 1.7356,
+          "retrievalMode": "bm25",
+          "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"context_asset_search_mph68v0p_f2bc2701\",\n      \"type\": \"searchContextAssets\",\n      \"query\": \"策划 Agent 需要真实产品级控制\",\n      \"scope\": \"context_assets\",\n      \"count\": 1,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [\n        {\n          \"id\": \"tool_asset_mph68mop_381fc6c8\",\n          \"kind\": \"tool_result\",\n          \"title\": \"novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"..."
+        },
+        {
+          "id": "planning_msg_mph68qx9_e94d9b69",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_e94d9b69"
+          },
+          "score": 0.5277,
+          "bm25Score": 0.3284,
+          "vectorScore": 0,
+          "rerankScore": 0.9921,
+          "retrievalMode": "bm25",
+          "text": "我已经读取上下文资产《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，后续可以基于这份旧工具证据继续任务。"
+        },
+        {
+          "id": "planning_msg_mph68el1_d7b3e0c2",
+          "title": "策划对话：user",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_d7b3e0c2"
+          },
+          "score": 0.2309,
+          "bm25Score": 0.0038,
+          "vectorScore": 0,
+          "rerankScore": 0.511,
+          "retrievalMode": "bm25",
+          "text": "从本地文件里找 user_ideas，并读取必要片段。"
+        },
+        {
+          "id": "planning_msg_mph68el1_b4bf5047",
+          "title": "策划对话：assistant",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_b4bf5047"
+          },
+          "score": 0.2308,
+          "bm25Score": 0.0036,
+          "vectorScore": 0,
+          "rerankScore": 0.5109,
+          "retrievalMode": "bm25",
+          "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。"
+        }
+      ],
+      "recentContext": [
+        {
+          "title": "策划对话：user",
+          "text": "从本地文件里找 user_ideas，并读取必要片段。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_d7b3e0c2"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_b4bf5047"
+          }
+        },
+        {
+          "title": "策划对话：user",
+          "text": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_98221c1e"
+          }
+        },
+        {
+          "title": "策划对话：assistant",
+          "text": "我已经读取上下文资产《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，后续可以基于这份旧工具证据继续任务。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_e94d9b69"
+          }
+        }
+      ],
+      "promptSections": [
+        {
+          "layer": "fixed_context",
+          "title": "策划项目档案",
+          "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+          "source": {
+            "type": "archive",
+            "id": "planner"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：user",
+          "text": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_98221c1e"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划 Skill 执行结果",
+          "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"local_search_mph68it7_14797bf5\",\n      \"type\": \"searchLocalFiles\",\n      \"query\": \"user_ideas\",\n      \"scope\": \"local_files\",\n      \"count\": 5,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"hybrid\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [],\n      \"warnings\": [],\n      \"results\": [\n        {\n          \"id\": \"local_file:default_agent_folder:novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"title\": \"novels/微不足道的妄想-n...",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mph68el1_b4bf5047"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划 Skill 执行结果",
+          "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"context_asset_search_mph68v0p_f2bc2701\",\n      \"type\": \"searchContextAssets\",\n      \"query\": \"策划 Agent 需要真实产品级控制\",\n      \"scope\": \"context_assets\",\n      \"count\": 1,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [\n        {\n          \"id\": \"tool_asset_mph68mop_381fc6c8\",\n          \"kind\": \"tool_result\",\n          \"title\": \"novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"...",
+          "source": {
+            "type": "planning_skill_ops",
+            "id": "msg_mph68qx9_e94d9b69"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：assistant",
+          "text": "我已经读取上下文资产《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，后续可以基于这份旧工具证据继续任务。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_e94d9b69"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：user",
+          "text": "从本地文件里找 user_ideas，并读取必要片段。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_d7b3e0c2"
+          }
+        },
+        {
+          "layer": "retrieved_evidence",
+          "title": "策划对话：assistant",
+          "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_b4bf5047"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：user",
+          "text": "从本地文件里找 user_ideas，并读取必要片段。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_d7b3e0c2"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：assistant",
+          "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68el1_b4bf5047"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：user",
+          "text": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_98221c1e"
+          }
+        },
+        {
+          "layer": "recent_context",
+          "title": "策划对话：assistant",
+          "text": "我已经读取上下文资产《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，后续可以基于这份旧工具证据继续任务。",
+          "source": {
+            "type": "planning_chat",
+            "id": "msg_mph68qx9_e94d9b69"
+          }
+        }
+      ],
+      "layers": {
+        "fixedContext": [
+          {
+            "title": "策划项目档案",
+            "text": "{\n  \"premise\": \"\",\n  \"background\": \"\",\n  \"outline\": \"\",\n  \"style\": \"\",\n  \"scenario\": {\n    \"background\": \"\",\n    \"time\": \"\",\n    \"place\": \"\",\n    \"plotDirection\": \"\",\n    \"tone\": \"\"\n  },\n  \"characters\": []\n}",
+            "source": {
+              "type": "archive",
+              "id": "planner"
+            }
+          }
+        ],
+        "triggeredLore": [],
+        "structuredMemory": [],
+        "retrievedEvidence": [
+          {
+            "id": "planning_msg_mph68qx9_98221c1e",
+            "title": "策划对话：user",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68qx9_98221c1e"
+            },
+            "score": 1.8135,
+            "bm25Score": 1,
+            "vectorScore": 0,
+            "rerankScore": 3.48,
+            "retrievalMode": "bm25",
+            "text": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。"
+          },
+          {
+            "id": "planning_msg_mph68el1_b4bf5047_skill_ops",
+            "title": "策划 Skill 执行结果",
+            "source": {
+              "type": "planning_skill_ops",
+              "id": "msg_mph68el1_b4bf5047"
+            },
+            "score": 0.8512,
+            "bm25Score": 0.0394,
+            "vectorScore": 0,
+            "rerankScore": 1.8699,
+            "retrievalMode": "bm25",
+            "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"local_search_mph68it7_14797bf5\",\n      \"type\": \"searchLocalFiles\",\n      \"query\": \"user_ideas\",\n      \"scope\": \"local_files\",\n      \"count\": 5,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"hybrid\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [],\n      \"warnings\": [],\n      \"results\": [\n        {\n          \"id\": \"local_file:default_agent_folder:novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"title\": \"novels/微不足道的妄想-n..."
+          },
+          {
+            "id": "planning_msg_mph68qx9_e94d9b69_skill_ops",
+            "title": "策划 Skill 执行结果",
+            "source": {
+              "type": "planning_skill_ops",
+              "id": "msg_mph68qx9_e94d9b69"
+            },
+            "score": 0.8163,
+            "bm25Score": 0.1425,
+            "vectorScore": 0,
+            "rerankScore": 1.7356,
+            "retrievalMode": "bm25",
+            "text": "{\n  \"requested\": 2,\n  \"applied\": [],\n  \"searches\": [\n    {\n      \"id\": \"context_asset_search_mph68v0p_f2bc2701\",\n      \"type\": \"searchContextAssets\",\n      \"query\": \"策划 Agent 需要真实产品级控制\",\n      \"scope\": \"context_assets\",\n      \"count\": 1,\n      \"path\": \"\",\n      \"relativePath\": \"\",\n      \"patchId\": \"\",\n      \"patchSetId\": \"\",\n      \"beforeHash\": \"\",\n      \"afterHash\": \"\",\n      \"diff\": \"\",\n      \"provider\": \"\",\n      \"requestedProvider\": \"\",\n      \"cached\": false,\n      \"credibility\": null,\n      \"retrievedAt\": \"\",\n      \"attempts\": [],\n      \"sources\": [],\n      \"files\": [],\n      \"retrievalMode\": \"\",\n      \"vectorIndex\": null,\n      \"assetRef\": null,\n      \"assetRefs\": [\n        {\n          \"id\": \"tool_asset_mph68mop_381fc6c8\",\n          \"kind\": \"tool_result\",\n          \"title\": \"novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json\",\n          \"..."
+          },
+          {
+            "id": "planning_msg_mph68qx9_e94d9b69",
+            "title": "策划对话：assistant",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68qx9_e94d9b69"
+            },
+            "score": 0.5277,
+            "bm25Score": 0.3284,
+            "vectorScore": 0,
+            "rerankScore": 0.9921,
+            "retrievalMode": "bm25",
+            "text": "我已经读取上下文资产《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，后续可以基于这份旧工具证据继续任务。"
+          },
+          {
+            "id": "planning_msg_mph68el1_d7b3e0c2",
+            "title": "策划对话：user",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68el1_d7b3e0c2"
+            },
+            "score": 0.2309,
+            "bm25Score": 0.0038,
+            "vectorScore": 0,
+            "rerankScore": 0.511,
+            "retrievalMode": "bm25",
+            "text": "从本地文件里找 user_ideas，并读取必要片段。"
+          },
+          {
+            "id": "planning_msg_mph68el1_b4bf5047",
+            "title": "策划对话：assistant",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68el1_b4bf5047"
+            },
+            "score": 0.2308,
+            "bm25Score": 0.0036,
+            "vectorScore": 0,
+            "rerankScore": 0.5109,
+            "retrievalMode": "bm25",
+            "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。"
+          }
+        ],
+        "recentContext": [
+          {
+            "title": "策划对话：user",
+            "text": "从本地文件里找 user_ideas，并读取必要片段。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68el1_d7b3e0c2"
+            }
+          },
+          {
+            "title": "策划对话：assistant",
+            "text": "我已经读取本地资料《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，可以基于这份资料继续提取角色卡、背景、大纲、世界书或记忆。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68el1_b4bf5047"
+            }
+          },
+          {
+            "title": "策划对话：user",
+            "text": "测试上下文资产：检索上下文资产 query:策划 Agent 需要真实产品级控制，然后读取上下文资产。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68qx9_98221c1e"
+            }
+          },
+          {
+            "title": "策划对话：assistant",
+            "text": "我已经读取上下文资产《novels/微不足道的妄想-novel_mpdnfom8_9992029e/roleplay-novel-project/planning/context-compaction.json》，后续可以基于这份旧工具证据继续任务。",
+            "source": {
+              "type": "planning_chat",
+              "id": "msg_mph68qx9_e94d9b69"
+            }
+          }
+        ]
+      },
+      "warnings": [],
+      "budget": {
+        "structured": 12,
+        "retrieved": 8,
+        "evidenceChars": 900,
+        "triggeredLore": 8,
+        "loreChars": 900,
+        "recursiveScanning": false
+      },
+      "builtAt": "2026-05-22T17:06:34.257Z"
+    }
+  },
+  "settings": {
+    "enabled": true,
+    "maxStructuredItems": 12,
+    "maxRetrievedItems": 8,
+    "maxEvidenceChars": 900,
+    "retrievalMode": "hybrid",
+    "vectorEnabled": false,
+    "embeddingProviderId": "",
+    "embeddingModel": "",
+    "rerankEnabled": true,
+    "rerankProviderId": "",
+    "rerankModel": "",
+    "maxVectorCandidates": 40,
+    "vectorChunkChars": 900
+  },
+  "vectorIndex": {
+    "documents": [],
+    "sourceHash": "",
+    "embeddingProviderId": "",
+    "embeddingModel": "",
+    "embeddingBackend": "local_hash",
+    "dimensions": 256,
+    "documentCount": 0,
+    "chunkCount": 0,
+    "stale": true,
+    "updatedAt": ""
+  },
+  "updatedAt": "2026-05-22T17:06:02.737Z"
+}

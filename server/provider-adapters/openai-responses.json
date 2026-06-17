@@ -1,0 +1,14 @@
+{
+  "id": "openai_responses",
+  "aliases": ["responses", "openai_responses"],
+  "label": "OpenAI Responses 兼容",
+  "endpointKind": "responses",
+  "endpointPath": "/responses",
+  "capabilities": {
+    "tools": true,
+    "stream": true,
+    "jsonSchema": true,
+    "maxContextTokens": 0,
+    "errorCodeMapping": {}
+  }
+}

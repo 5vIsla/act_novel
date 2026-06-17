@@ -1,0 +1,29 @@
+[
+  {
+    "id": "event_mq5zl03y_789d1ba1",
+    "type": "novel_updated",
+    "createdAt": "2026-06-09T01:54:08.206Z",
+    "payload": {
+      "title": "UI 过程流验证"
+    }
+  },
+  {
+    "id": "event_mq5zl2iz_cc2ed312",
+    "type": "planning_chat_awaiting_user",
+    "createdAt": "2026-06-09T01:54:11.339Z",
+    "payload": {
+      "runId": "run_ui_1780970048228",
+      "messageId": "msg_mq5zl07j_82ba42da",
+      "branchId": "main",
+      "forkFromMessageId": "",
+      "replaceFromMessageId": "",
+      "forkMode": "",
+      "hasArchivePatch": false,
+      "skillOps": 1,
+      "appliedSkillOps": 0,
+      "agentSteps": 2,
+      "conflictCount": 0,
+      "correctionCount": 0
+    }
+  }
+]

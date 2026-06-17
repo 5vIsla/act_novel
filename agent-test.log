@@ -1,0 +1,65 @@
+
+> roleplay-novel-studio@0.1.0 test:e2e:agent
+> node scripts/agent-e2e.js --suite agent
+
+Agent E2E 失败： 恢复任务应记录持久队列 attempts
+{
+  "id": "sub_agent_e2e_recover_mq632z62",
+  "parentRunId": "",
+  "profile": "lorebook_review",
+  "profileLabel": "世界书审查 Agent",
+  "permissionProfile": "read_only_novel_domain",
+  "allowedTools": [
+    "search",
+    "inspectNovelDiagnostics",
+    "searchContextAssets",
+    "readContextAsset"
+  ],
+  "outputSchema": {
+    "summary": "世界书健康度结论",
+    "keywordIssues": [
+      "关键词缺失、重复、遮蔽或触发过宽"
+    ],
+    "coverageIssues": [
+      "与档案、角色卡或记忆的覆盖关系问题"
+    ],
+    "suggestions": [
+      "建议 patchLorebook/upsertLorebook 的方向"
+    ]
+  },
+  "name": "E2E 重启恢复子 Agent",
+  "task": "验证服务重启后 queued 后台子 Agent 会被自动恢复执行。",
+  "context": "这是 E2E 构造的持久队列任务。",
+  "mode": "background",
+  "status": "completed",
+  "createdAt": "2026-06-09T03:32:05.723Z",
+  "updatedAt": "2026-06-09T03:32:07.532Z",
+  "finishedAt": "2026-06-09T03:32:07.512Z",
+  "result": "{\n  \"speech\": \"主要角色压低声音说：“这件事不能再按原计划走了。”\",\n  \"action\": \"主要角色观察现场里最不协调的细节，暂时没有替别人做决定。\",\n  \"inner_thought\": \"如果现在贸然推进，可能会暴露自己真正关心的东西。\",\n  \"intention\": \"先确认现场压力来源，再决定是否公开自己的判断。\",\n  \"needs_response_from\": [],\n  \"continuity_note\": \"本地模拟角色只验证角色边界，不代表最终文风。\"\n}",
+  "error": null,
+  "evidenceRefs": [],
+  "plannerSetting": {
+    "providerId": "provider_mock_local",
+    "model": "local-roleplay-mock",
+    "temperature": 0.75,
+    "contextWindowTokens": 0,
+    "promptBudgetTokens": 0,
+    "compressionTriggerTokens": 0,
+    "responseReserveTokens": 0,
+    "safetyTokens": 0,
+    "compactionPressureRatio": 0
+  },
+  "queue": {
+    "taskType": "sub_agent_model_call",
+    "backgroundEligible": true,
+    "attempts": 0,
+    "maxAttempts": 2,
+    "leaseOwner": "",
+    "leaseUntil": "",
+    "lastHeartbeatAt": "",
+    "retryAfter": ""
+  }
+}
+扮演法写小说工作台已启动：http://127.0.0.1:2700
+扮演法写小说工作台已启动：http://127.0.0.1:2700
+
